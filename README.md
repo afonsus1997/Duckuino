@@ -2,6 +2,7 @@
 
 ###The truly open-source atmega32u4 ducky clone (V0.1)
 
+```YOU are on the MASTER branch, recently fast-forwarded to v0.1```
 
 ##Info
 
