@@ -1,18 +1,18 @@
-Partlist exported from C:/Users/Afonso Muralha/Documents/eagle/Duckuino/Duckuino.sch at 27/01/2017 11:06
+Duckuino BOM
 
-Part Value         Device            Package         Description                                                                                                                  
-3V3  TPTP11R       TPTP11R           TP11R           Test pad                                                                                                                     
-C1   10uF          C-USC0603         C0603           CAPACITOR, American symbol                                                                                                   
-C2   10uF          C-USC0603         C0603           CAPACITOR, American symbol                                                                                                   
-C3   1uF           C-EUC0603         C0603           CAPACITOR, European symbol                                                                                                   
-C4   0.1uF/100nF   C-EUC0603         C0603           CAPACITOR, European symbol                                                                                                   
-C5   22pF          C-EUC0603         C0603           CAPACITOR, European symbol                                                                                                   
-C6   22pF          C-EUC0603         C0603           CAPACITOR, European symbol                                                                                                                                                                                                                    
-Q1   16MHz         XTAL-4-3225       NX3225          Classic 4-pin 3.2 x 2.5mm crystal                                                                                            
-R1   10KR          RR0603            R0603           RESISTOR, European symbol                                                                                                    
-R2   22R           RR0603            R0603           RESISTOR, European symbol                                                                                                    
-R3   22R           RR0603            R0603           RESISTOR, European symbol                                                                                                                                                                                                                      
-SD1  TF-HOLDER     TF-HOLDER         TF-PULL         TF / Micro SD socket is PUSH-PUSH type, the card can be pushed into and auto locked and pushed out by simply press the card. 
-U$1  ATMEGA32U4-AU ATMEGA32U4-AU     TQFP44          http://www.ladyada.net/library/eagle                                                                                         
-U1   MIC5219 3.3V  V_REG_MIC52193.3V SOT23-5         V_REG MIC5219                                                                                                                
-X1   USB-A         USB-A             MOLEX_480371000 USB type A 'plug'                                                                                                            
+Part Value         Device            Package                                                                                                            
+3V3  TPTP11R       TPTP11R           TP11R                                                                                                               
+C1   10uF          C-USC0603         C0603                                                                                                         
+C2   10uF          C-USC0603         C0603                                                                                                            
+C3   1uF           C-EUC0603         C0603                                                                                                          
+C4   0.1uF/100nF   C-EUC0603         C0603                                                                                                             
+C5   22pF          C-EUC0603         C0603                                                                                                           
+C6   22pF          C-EUC0603         C0603                                                                                                                                                                                                                              
+Q1   16MHz         XTAL-4-3225       NX3225                                                                                                    
+R1   10KR          RR0603            R0603                                                                                                               
+R2   22R           RR0603            R0603                                                                                                              
+R3   22R           RR0603            R0603                                                                                                                                                                                                                               
+SD1  TF-HOLDER     TF-HOLDER         TF-PULL         
+U$1  ATMEGA32U4-AU ATMEGA32U4-AU     TQFP44                                                                                                
+U1   MIC5219 3.3V  V_REG_MIC52193.3V SOT23-5                                                                                                                      
+X1   USB-A         USB-A                                                                                                                         
