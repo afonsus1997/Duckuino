@@ -44,6 +44,4 @@ X1   		USB-A         		USB-A
 ![Eagle2](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/eagle_brd.png)
 
 ###V0.1 PCB pictures
-![PCB1](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/V0.1_TOP.jpg)
-
-![PCB2](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/V0.1_BOTTOM.jpg)
+![PCB1](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/V0.1_TOP.jpg) ![PCB2](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/V0.1_BOTTOM.jpg)
