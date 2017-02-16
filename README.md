@@ -12,6 +12,7 @@ Enter the duckuino, the WIP fully open-source USB rubberducky clone based on the
 ###Parts list for building your duckuino
 Duckuino BOM
 
+```
 Part 		Value         		Device            		Package                                                                                                            
 3V3  		TPTP11R       		TPTP11R           		TP11R
 C1   		10uF          		C-USC0603         		C0603                                                                                                         
@@ -28,7 +29,7 @@ SD1  		TF-HOLDER     		TF-HOLDER         		TF-PULL
 U$1  		ATMEGA32U4-AU 		ATMEGA32U4-AU     		TQFP44                                                                                                
 U1   		MIC5219 3.3V  		V_REG_MIC52193.3V 		SOT23-5
 X1   		USB-A         		USB-A                                                                                                                         
-
+```
 
 ##Renders & Pictures
 
