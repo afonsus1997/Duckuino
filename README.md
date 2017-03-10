@@ -1,8 +1,8 @@
 #Duckuino
 
-###The truly open-source atmega32u4 ducky clone (V0.1)
+###The truly open-source atmega32u4 ducky clone (V2.0)
 
-```YOU are on the MASTER branch, recently fast-forwarded to v0.1```
+```YOU are on the ALTIUM branch! V2.0 WIP```
 
 ##Info
 
@@ -33,10 +33,17 @@ X1   		USB-A         		USB-A
 
 ##Renders & Pictures
 
+###V2.0 Altium Renders
+Soon!
+
+
+## Old version renders
+
 ###V0.1 Renders
 ![Render1](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/top.png)
 
 ![Render2](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/bot.png)
+
 
 ###V0.1 Eagle Renders
 ![Eagle1](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/eagle_sch.png)
