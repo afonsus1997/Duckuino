@@ -1,0 +1,101 @@
+Importer Log Report
+Project : Group
+
+Section : Analyze Document - C:\lbr\atmel.lbr
+    Analyzing data of C:\lbr\atmel.lbr
+    Load settings
+    Load layers 59
+    Load Library library
+    Load Library ""
+    Load Packages 60
+    Load Symbols 103
+    Load DeviceSets 90
+EndSection
+
+Section : Analyze Document - C:\lbr\Atmel_By_element14_Batch_1-00.lbr
+    Analyzing data of C:\lbr\Atmel_By_element14_Batch_1-00.lbr
+    Load settings
+    Load layers 45
+    Load Library library
+    Load Library ""
+    Load Packages 46
+    Load Symbols 353
+    Load DeviceSets 346
+EndSection
+
+Section : Analyze Document - C:\lbr\sd.lbr
+    Analyzing data of C:\lbr\sd.lbr
+    Load settings
+    Load layers 53
+    Load Library library
+    Load Library ""
+    Load Packages 6
+    Load Symbols 4
+    Load DeviceSets 4
+EndSection
+
+Section : Analyze Document - C:\lbr\SparkFun-Aesthetics.lbr
+    Analyzing data of C:\lbr\SparkFun-Aesthetics.lbr
+    Load settings
+    Load layers 143
+    Load Library library
+    Load Library ""
+    Load Packages 74
+    Load Symbols 25
+    Load DeviceSets 25
+EndSection
+
+Section : Analyze Document - C:\lbr\SparkFun-Connectors.lbr
+    Analyzing data of C:\lbr\SparkFun-Connectors.lbr
+    Load settings
+    Load layers 143
+    Load Library library
+    Load Library ""
+    Load Packages 312
+    Load Symbols 87
+    Load DeviceSets 90
+EndSection
+
+Section : Analyze Document - C:\lbr\SparkFun-IC-Power.lbr
+    Analyzing data of C:\lbr\SparkFun-IC-Power.lbr
+    Load settings
+    Load layers 143
+    Load Library library
+    Load Library ""
+    Load Packages 31
+    Load Symbols 28
+    Load DeviceSets 32
+EndSection
+
+Section : Analyze Document - C:\lbr\SparkFun-Jumpers.lbr
+    Analyzing data of C:\lbr\SparkFun-Jumpers.lbr
+    Load settings
+    Load layers 141
+    Load Library library
+    Load Library ""
+    Load Packages 18
+    Load Symbols 8
+    Load DeviceSets 8
+EndSection
+
+Section : Analyze Document - C:\lbr\SparkFun-Resistors.lbr
+    Analyzing data of C:\lbr\SparkFun-Resistors.lbr
+    Load settings
+    Load layers 141
+    Load Library library
+    Load Library ""
+    Load Packages 28
+    Load Symbols 6
+    Load DeviceSets 98
+EndSection
+
+Section : Analyze Document - C:\lbr\SparkFun-Switches.lbr
+    Analyzing data of C:\lbr\SparkFun-Switches.lbr
+    Load settings
+    Load layers 141
+    Load Library library
+    Load Library ""
+    Load Packages 50
+    Load Symbols 25
+    Load DeviceSets 26
+EndSection
