@@ -1,0 +1,24 @@
+Importer Log Report
+Project : Group
+
+Section : Analyze Document - C:\lbr\SparkFun-Capacitors.lbr
+    Analyzing data of C:\lbr\SparkFun-Capacitors.lbr
+    Load settings
+    Load layers 143
+    Load Library library
+    Load Library ""
+    Load Packages 25
+    Load Symbols 4
+    Load DeviceSets 47
+EndSection
+
+Section : Analyze Document - C:\lbr\SparkFun-Resistors.lbr
+    Analyzing data of C:\lbr\SparkFun-Resistors.lbr
+    Load settings
+    Load layers 141
+    Load Library library
+    Load Library ""
+    Load Packages 28
+    Load Symbols 6
+    Load DeviceSets 98
+EndSection

@@ -1,0 +1,21 @@
+Change Component Comment : Designator=U2 Old Comment=8-bit Microcontroller with ISP Flash and USB Controller New Comment=
+Added Component: Designator=R1(J1-0603)
+Added Component: Designator=R2(J1-0603)
+Added Pin To Net: NetName=UVCC Pin=USB1-1
+Added Pin To Net: NetName=UVCC Pin=USB1-1
+Added Pin To Net: NetName=UVCC Pin=USB1-1
+Added Pin To Net: NetName=GND Pin=USB1-4
+Added Pin To Net: NetName=D+ Pin=R1-2
+Added Pin To Net: NetName=D+ Pin=U2-4
+Added Net: Name=D+
+Added Pin To Net: NetName=D- Pin=R2-2
+Added Pin To Net: NetName=D- Pin=U2-3
+Added Net: Name=D-
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=USB1-3
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=USB1-2
+Added Net: Name=NetR2_1
+Added Member To Class: ClassName=Duckuino Member=Component R1 
+Added Member To Class: ClassName=Duckuino Member=Component R2 

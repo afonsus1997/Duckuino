@@ -1,0 +1,26 @@
+Importer Log Report
+Project : adafruit.PrjPcb
+
+Section : Analyze Document - C:\lbr\adafruit.lbr
+    Analyzing data of C:\lbr\adafruit.lbr
+    Load settings
+    Load layers 143
+    Load Library library
+    Load Library ""
+    Load Packages 643
+    Load Symbols 206
+    Load DeviceSets 199
+EndSection
+
+Section : Import Document - C:\lbr\adafruit.lbr
+    Circles with holes do not supported for rooms!
+    Circles with holes do not supported for rooms!
+    Circles with holes do not supported for rooms!
+    Circles with holes do not supported for rooms!
+    Circles with holes do not supported for rooms!
+    Circles with holes do not supported for rooms!
+    Circles with holes do not supported for rooms!
+    Circles with holes do not supported for rooms!
+    Circles with holes do not supported for rooms!
+    Circles with holes do not supported for rooms!
+EndSection

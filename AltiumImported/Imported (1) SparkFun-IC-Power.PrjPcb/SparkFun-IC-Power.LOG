@@ -1,0 +1,18 @@
+Importer Log Report
+Project : SparkFun-IC-Power.PrjPcb
+
+Section : Analyze Document - C:\lbr\SparkFun-IC-Power.lbr
+    Analyzing data of C:\lbr\SparkFun-IC-Power.lbr
+    Load settings
+    Load layers 143
+    Load Library library
+    Load Library ""
+    Load Packages 31
+    Load Symbols 28
+    Load DeviceSets 32
+EndSection
+
+Section : Import Document - C:\lbr\SparkFun-IC-Power.lbr
+    Circles with holes do not supported for rooms!
+    Circles with holes do not supported for rooms!
+EndSection
