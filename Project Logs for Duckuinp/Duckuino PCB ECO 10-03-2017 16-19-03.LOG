@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=3V3 Pin=C3-2
+Removed Pin From Net: NetName=GND Pin=C4-1
+Removed Pin From Net: NetName=3V3 Pin=C4-2
+Change Component DesignItemId : Designator=C3 Old DesignItemId=Cap New DesignItemId=10UF-0603-6.3V-20%
+Change Component DesignItemId : Designator=C4 Old DesignItemId=Cap New DesignItemId=10UF-0603-6.3V-20%
+Change Component DesignItemId : Designator=C1 Old DesignItemId=Cap Pol3 New DesignItemId=10UF-0603-6.3V-20%
+Change Component DesignItemId : Designator=C2 Old DesignItemId=Cap Pol3 New DesignItemId=10UF-0603-6.3V-20%
+Change Component Comment : Designator=C4 Old Comment=Cap New Comment=0.1uF
+Change Component Comment : Designator=C3 Old Comment=Cap New Comment=1uF
+Change Component Comment : Designator=C1 Old Comment=Cap Pol3 New Comment=10UF
+Change Component Comment : Designator=C2 Old Comment=Cap Pol3 New Comment=10UF
+Change Component Description : Designator=C3 Old Description=Capacitor New Description=
+Change Component Description : Designator=C4 Old Description=Capacitor New Description=
+Change Component Description : Designator=C1 Old Description=Polarized Capacitor (Surface Mount) New Description=
+Change Component Description : Designator=C2 Old Description=Polarized Capacitor (Surface Mount) New Description=
+Change Component Library : Designator=C1 Old Library=Miscellaneous Devices.IntLib New Library=SparkFun-Capacitors.IntLib
+Change Component Library : Designator=C2 Old Library=Miscellaneous Devices.IntLib New Library=SparkFun-Capacitors.IntLib
+Change Component Library : Designator=C3 Old Library=Miscellaneous Devices.IntLib New Library=SparkFun-Capacitors.IntLib
+Change Component Library : Designator=C4 Old Library=Miscellaneous Devices.IntLib New Library=SparkFun-Capacitors.IntLib
+Added Pin To Net: NetName=3V3 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=3V3 Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2

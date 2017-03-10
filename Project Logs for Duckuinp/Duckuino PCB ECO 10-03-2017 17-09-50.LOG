@@ -1,0 +1,106 @@
+Added Component: Designator=C1(0603)
+Added Component: Designator=C2(0603)
+Added Component: Designator=C3(0603)
+Added Component: Designator=C4(0603)
+Added Component: Designator=C5(0603)
+Added Component: Designator=C6(0603)
+Added Component: Designator=Q1(NX3225)
+Added Component: Designator=R1(J1-0603)
+Added Component: Designator=R2(J1-0603)
+Added Component: Designator=R3(J1-0603)
+Added Component: Designator=S1(PCBComponent_1)
+Added Component: Designator=SD1(TF-PULL)
+Added Component: Designator=U1(SOT23-5)
+Added Component: Designator=U2(QFP80P1200X1200X120-44N)
+Added Component: Designator=USB1(MOLEX_480371000)
+Added Pin To Net: NetName=UVCC Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=3V3 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=3V3 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=3V3 Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=XTAL1 Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=XTAL2 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=XTAL1 Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=XTAL2 Pin=Q1-3
+Added Pin To Net: NetName=GND Pin=Q1-4
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=D+ Pin=R1-2
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=D- Pin=R2-2
+Added Pin To Net: NetName=3V3 Pin=R3-1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=GND Pin=S1-1
+Added Pin To Net: NetName=D4/A6 Pin=SD1-2
+Added Pin To Net: NetName=D16/MOSI Pin=SD1-3
+Added Pin To Net: NetName=3V3 Pin=SD1-4
+Added Pin To Net: NetName=D15/SCK Pin=SD1-5
+Added Pin To Net: NetName=GND Pin=SD1-6
+Added Pin To Net: NetName=D14/MISO Pin=SD1-7
+Added Pin To Net: NetName=UVCC Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=UVCC Pin=U1-3
+Added Pin To Net: NetName=3V3 Pin=U1-5
+Added Pin To Net: NetName=D7 Pin=U2-1
+Added Pin To Net: NetName=UVCC Pin=U2-2
+Added Pin To Net: NetName=D- Pin=U2-3
+Added Pin To Net: NetName=D+ Pin=U2-4
+Added Pin To Net: NetName=GND Pin=U2-5
+Added Pin To Net: NetName=GND Pin=U2-6
+Added Pin To Net: NetName=UVCC Pin=U2-7
+Added Pin To Net: NetName=SS Pin=U2-8
+Added Pin To Net: NetName=D15/SCK Pin=U2-9
+Added Pin To Net: NetName=D16/MOSI Pin=U2-10
+Added Pin To Net: NetName=D14/MISO Pin=U2-11
+Added Pin To Net: NetName=NetR3_2 Pin=U2-13
+Added Pin To Net: NetName=3V3 Pin=U2-14
+Added Pin To Net: NetName=GND Pin=U2-15
+Added Pin To Net: NetName=XTAL2 Pin=U2-16
+Added Pin To Net: NetName=XTAL1 Pin=U2-17
+Added Pin To Net: NetName=D3 Pin=U2-18
+Added Pin To Net: NetName=D2/SDA Pin=U2-19
+Added Pin To Net: NetName=D0/RX Pin=U2-20
+Added Pin To Net: NetName=D1/TX Pin=U2-21
+Added Pin To Net: NetName=GND Pin=U2-23
+Added Pin To Net: NetName=3V3 Pin=U2-24
+Added Pin To Net: NetName=D4/A6 Pin=U2-25
+Added Pin To Net: NetName=6/A7 Pin=U2-27
+Added Pin To Net: NetName=D8/A8 Pin=U2-28
+Added Pin To Net: NetName=D9/A9 Pin=U2-29
+Added Pin To Net: NetName=D10/A10 Pin=U2-30
+Added Pin To Net: NetName=D5 Pin=U2-31
+Added Pin To Net: NetName=3V3 Pin=U2-34
+Added Pin To Net: NetName=GND Pin=U2-35
+Added Pin To Net: NetName=A0 Pin=U2-36
+Added Pin To Net: NetName=A1 Pin=U2-37
+Added Pin To Net: NetName=A2 Pin=U2-38
+Added Pin To Net: NetName=A3 Pin=U2-39
+Added Pin To Net: NetName=GND Pin=U2-42
+Added Pin To Net: NetName=GND Pin=U2-43
+Added Pin To Net: NetName=3V3 Pin=U2-44
+Added Pin To Net: NetName=UVCC Pin=USB1-1
+Added Pin To Net: NetName=UVCC Pin=USB1-1
+Added Pin To Net: NetName=UVCC Pin=USB1-1
+Added Pin To Net: NetName=NetR2_1 Pin=USB1-2
+Added Pin To Net: NetName=NetR1_1 Pin=USB1-3
+Added Pin To Net: NetName=GND Pin=USB1-4
+Added Member To Class: ClassName=Duckuino Member=Component C1 10UF
+Added Member To Class: ClassName=Duckuino Member=Component C2 10UF
+Added Member To Class: ClassName=Duckuino Member=Component C3 1uF
+Added Member To Class: ClassName=Duckuino Member=Component C4 0.1uF
+Added Member To Class: ClassName=Duckuino Member=Component C5 22pF
+Added Member To Class: ClassName=Duckuino Member=Component C6 22pF
+Added Member To Class: ClassName=Duckuino Member=Component Q1 
+Added Member To Class: ClassName=Duckuino Member=Component R1 
+Added Member To Class: ClassName=Duckuino Member=Component R2 
+Added Member To Class: ClassName=Duckuino Member=Component R3 
+Added Member To Class: ClassName=Duckuino Member=Component S1 DTSM-3
+Added Member To Class: ClassName=Duckuino Member=Component SD1 
+Added Member To Class: ClassName=Duckuino Member=Component U1 V_REG_MIC52193.3V
+Added Member To Class: ClassName=Duckuino Member=Component U2 
+Added Member To Class: ClassName=Duckuino Member=Component USB1 USB-A
