@@ -9,6 +9,7 @@
 Enter the duckuino, the WIP fully open-source USB rubberducky clone based on the atmega32u4
 
 ##BOM
+
 ###Parts list for building your duckuino
 Duckuino BOM
 
@@ -32,7 +33,9 @@ X1   		USB-A         		USB-A
 ```
 
 ##PINMAP
+
 ###PINMAP of the ATMEGA32u4
+
 ```
 Warning! This WILL change due to pin arranjements on the pcb layout
 D0/RX    --- TestPad
