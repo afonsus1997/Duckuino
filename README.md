@@ -31,6 +31,31 @@ U1   		MIC5219 3.3V  		V_REG_MIC52193.3V 		SOT23-5
 X1   		USB-A         		USB-A                                                                                                                         
 ```
 
+##PINMAP
+###PINMAP of the ATMEGA32u4
+```
+Warning! This WILL change due to pin arranjements on the pcb layout
+D0/RX    --- TestPad
+D1/TX    --- TestPad
+D2/SDA   --- Testpad
+D3       --- N/C
+D4/A6    --- CD/DAT3(!CS!)  (sdcard reader)
+D5       --- N/C
+D6       --- GPIO LED1
+D7       --- GPIO LED2
+D8/A8    --- DIPSwitch1
+D9/A9    --- DIPSwitch2
+D10/A10  --- DIPSwitch3
+D11      --- DIPSwitch4
+D12      --- N/C
+D13      --- N/C
+D14/MISO --- DAT0(DO) (sdcard reader)
+D15/SCK  --- CLK(SCLK) (sdcard reader)
+D16/MOSI --- CMD(DI) (sdcard reader)
+```
+
+
+
 ##Renders & Pictures
 
 ###V2.0 Altium Renders

@@ -1,0 +1,9 @@
+Added Component: Designator=LED1(CHIP-LED0603)
+Added Component: Designator=R4(J1-0603)
+Added Pin To Net: NetName=GND Pin=LED1-C
+Added Pin To Net: NetName=UVCC Pin=R4-1
+Added Pin To Net: NetName=NetLED1_A Pin=LED1-A
+Added Pin To Net: NetName=NetLED1_A Pin=R4-2
+Added Net: Name=NetLED1_A
+Added Member To Class: ClassName=Duckuino Member=Component LED1 LED   OSRAM: - CHIPLED LG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971 LH N974, LH R974 LS Q976, LO Q976, LY Q976 LO Q996 - Hyper CHIPLED LW Q18S LB Q993, LB Q99A, LB R99A - SideLED LS A670, LO A670, LY A670, LG A670, LP A670 LB A673, LV A673, LT A6
+Added Member To Class: ClassName=Duckuino Member=Component R4 
