@@ -64,7 +64,14 @@ D16/MOSI --- CMD(DI) (sdcard reader)
 Soon!
 
 
-## Old version renders
+## Old Version Renders & Pictures
+
+### V0.1 Photos
+![Soldered1](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/soldered1.png)
+
+![Soldered2](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/soldered2.png)
+
+![Soldered3](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/soldered3.png)
 
 ### V0.1 Renders
 ![Render1](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/top.png)

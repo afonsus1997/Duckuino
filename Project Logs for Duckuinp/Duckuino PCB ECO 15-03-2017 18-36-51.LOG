@@ -1,0 +1,142 @@
+Added Component: Designator=C1(0603)
+Added Component: Designator=C2(0603)
+Added Component: Designator=C3(0603)
+Added Component: Designator=C4(0603)
+Added Component: Designator=C5(0603)
+Added Component: Designator=C6(0603)
+Added Component: Designator=LED1(CHIP-LED0603)
+Added Component: Designator=LED2(CHIP-LED0603)
+Added Component: Designator=LED3(CHIP-LED0603)
+Added Component: Designator=Q1(NX3225)
+Added Component: Designator=R1(J1-0603)
+Added Component: Designator=R2(J1-0603)
+Added Component: Designator=R3(J1-0603)
+Added Component: Designator=R4(J1-0603)
+Added Component: Designator=R5(J1-0603)
+Added Component: Designator=R6(J1-0603)
+Added Component: Designator=S2(SOP8)
+Added Component: Designator=SD1(TF-PULL)
+Added Component: Designator=SW1(PCBComponent_1)
+Added Component: Designator=U1(QFP80P1200X1200X120-44N)
+Added Component: Designator=U2(SOT23-5)
+Added Component: Designator=USB1(MOLEX_480371000)
+Added Pin To Net: NetName=3V3 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=3V3 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=3V3 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=UVCC Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=XTAL1 Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=XTAL2 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=NetLED1_A Pin=LED1-A
+Added Pin To Net: NetName=GND Pin=LED1-C
+Added Pin To Net: NetName=NetLED2_A Pin=LED2-A
+Added Pin To Net: NetName=GND Pin=LED2-C
+Added Pin To Net: NetName=NetLED3_A Pin=LED3-A
+Added Pin To Net: NetName=GND Pin=LED3-C
+Added Pin To Net: NetName=XTAL1 Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=XTAL2 Pin=Q1-3
+Added Pin To Net: NetName=GND Pin=Q1-4
+Added Pin To Net: NetName=UVCC Pin=R1-1
+Added Pin To Net: NetName=NetLED1_A Pin=R1-2
+Added Pin To Net: NetName=3V3 Pin=R2-1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=D+ Pin=R3-2
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=D- Pin=R4-2
+Added Pin To Net: NetName=D6/A7 Pin=R5-1
+Added Pin To Net: NetName=NetLED2_A Pin=R5-2
+Added Pin To Net: NetName=D7 Pin=R6-1
+Added Pin To Net: NetName=NetLED3_A Pin=R6-2
+Added Pin To Net: NetName=D8/A8 Pin=S2-1
+Added Pin To Net: NetName=D9/A9 Pin=S2-2
+Added Pin To Net: NetName=D10/A10 Pin=S2-3
+Added Pin To Net: NetName=D11 Pin=S2-4
+Added Pin To Net: NetName=GND Pin=S2-5
+Added Pin To Net: NetName=GND Pin=S2-6
+Added Pin To Net: NetName=GND Pin=S2-7
+Added Pin To Net: NetName=GND Pin=S2-8
+Added Pin To Net: NetName=D4/A6 Pin=SD1-2
+Added Pin To Net: NetName=D16/MOSI Pin=SD1-3
+Added Pin To Net: NetName=3V3 Pin=SD1-4
+Added Pin To Net: NetName=D15/SCK Pin=SD1-5
+Added Pin To Net: NetName=GND Pin=SD1-6
+Added Pin To Net: NetName=D14/MISO Pin=SD1-7
+Added Pin To Net: NetName=D7 Pin=U1-1
+Added Pin To Net: NetName=UVCC Pin=U1-2
+Added Pin To Net: NetName=D- Pin=U1-3
+Added Pin To Net: NetName=D+ Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Pin To Net: NetName=GND Pin=U1-6
+Added Pin To Net: NetName=UVCC Pin=U1-7
+Added Pin To Net: NetName=SS Pin=U1-8
+Added Pin To Net: NetName=D15/SCK Pin=U1-9
+Added Pin To Net: NetName=D16/MOSI Pin=U1-10
+Added Pin To Net: NetName=D14/MISO Pin=U1-11
+Added Pin To Net: NetName=D11 Pin=U1-12
+Added Pin To Net: NetName=NetR2_2 Pin=U1-13
+Added Pin To Net: NetName=3V3 Pin=U1-14
+Added Pin To Net: NetName=GND Pin=U1-15
+Added Pin To Net: NetName=XTAL2 Pin=U1-16
+Added Pin To Net: NetName=XTAL1 Pin=U1-17
+Added Pin To Net: NetName=D3 Pin=U1-18
+Added Pin To Net: NetName=D2/SDA Pin=U1-19
+Added Pin To Net: NetName=D0/RX Pin=U1-20
+Added Pin To Net: NetName=D1/TX Pin=U1-21
+Added Pin To Net: NetName=GND Pin=U1-23
+Added Pin To Net: NetName=3V3 Pin=U1-24
+Added Pin To Net: NetName=D4/A6 Pin=U1-25
+Added Pin To Net: NetName=D12 Pin=U1-26
+Added Pin To Net: NetName=D6/A7 Pin=U1-27
+Added Pin To Net: NetName=D8/A8 Pin=U1-28
+Added Pin To Net: NetName=D9/A9 Pin=U1-29
+Added Pin To Net: NetName=D10/A10 Pin=U1-30
+Added Pin To Net: NetName=D5 Pin=U1-31
+Added Pin To Net: NetName=D13 Pin=U1-32
+Added Pin To Net: NetName=3V3 Pin=U1-34
+Added Pin To Net: NetName=GND Pin=U1-35
+Added Pin To Net: NetName=A0 Pin=U1-36
+Added Pin To Net: NetName=A1 Pin=U1-37
+Added Pin To Net: NetName=A2 Pin=U1-38
+Added Pin To Net: NetName=A3 Pin=U1-39
+Added Pin To Net: NetName=GND Pin=U1-42
+Added Pin To Net: NetName=GND Pin=U1-43
+Added Pin To Net: NetName=3V3 Pin=U1-44
+Added Pin To Net: NetName=UVCC Pin=U2-1
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=UVCC Pin=U2-3
+Added Pin To Net: NetName=3V3 Pin=U2-5
+Added Pin To Net: NetName=UVCC Pin=USB1-1
+Added Pin To Net: NetName=UVCC Pin=USB1-1
+Added Pin To Net: NetName=UVCC Pin=USB1-1
+Added Pin To Net: NetName=NetR4_1 Pin=USB1-2
+Added Pin To Net: NetName=NetR3_1 Pin=USB1-3
+Added Pin To Net: NetName=GND Pin=USB1-4
+Added Member To Class: ClassName=Duckuino Member=Component C1 10UF
+Added Member To Class: ClassName=Duckuino Member=Component C2 1uF
+Added Member To Class: ClassName=Duckuino Member=Component C3 0.1uF
+Added Member To Class: ClassName=Duckuino Member=Component C4 10UF
+Added Member To Class: ClassName=Duckuino Member=Component C5 22pF
+Added Member To Class: ClassName=Duckuino Member=Component C6 22pF
+Added Member To Class: ClassName=Duckuino Member=Component LED1 LED   OSRAM: - CHIPLED LG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971 LH N974, LH R974 LS Q976, LO Q976, LY Q976 LO Q996 - Hyper CHIPLED LW Q18S LB Q993, LB Q99A, LB R99A - SideLED LS A670, LO A670, LY A670, LG A670, LP A670 LB A673, LV A673, LT A6
+Added Member To Class: ClassName=Duckuino Member=Component LED2 LED   OSRAM: - CHIPLED LG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971 LH N974, LH R974 LS Q976, LO Q976, LY Q976 LO Q996 - Hyper CHIPLED LW Q18S LB Q993, LB Q99A, LB R99A - SideLED LS A670, LO A670, LY A670, LG A670, LP A670 LB A673, LV A673, LT A6
+Added Member To Class: ClassName=Duckuino Member=Component LED3 LED   OSRAM: - CHIPLED LG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971 LH N974, LH R974 LS Q976, LO Q976, LY Q976 LO Q996 - Hyper CHIPLED LW Q18S LB Q993, LB Q99A, LB R99A - SideLED LS A670, LO A670, LY A670, LG A670, LP A670 LB A673, LV A673, LT A6
+Added Member To Class: ClassName=Duckuino Member=Component Q1 
+Added Member To Class: ClassName=Duckuino Member=Component R1 
+Added Member To Class: ClassName=Duckuino Member=Component R2 
+Added Member To Class: ClassName=Duckuino Member=Component R3 
+Added Member To Class: ClassName=Duckuino Member=Component R4 
+Added Member To Class: ClassName=Duckuino Member=Component R5 
+Added Member To Class: ClassName=Duckuino Member=Component R6 
+Added Member To Class: ClassName=Duckuino Member=Component S2 SW-DIP4
+Added Member To Class: ClassName=Duckuino Member=Component SD1 
+Added Member To Class: ClassName=Duckuino Member=Component SW1 
+Added Member To Class: ClassName=Duckuino Member=Component U1 
+Added Member To Class: ClassName=Duckuino Member=Component U2 V_REG_MIC52193.3V
+Added Member To Class: ClassName=Duckuino Member=Component USB1 USB-A

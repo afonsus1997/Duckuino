@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=D8/A8 Pin=S2-1
+Removed Pin From Net: NetName=D9/A9 Pin=S2-2
+Removed Pin From Net: NetName=D10/A10 Pin=S2-3
+Removed Pin From Net: NetName=D11 Pin=S2-4
+Added Pin To Net: NetName=D11 Pin=S2-1
+Added Pin To Net: NetName=D10/A10 Pin=S2-2
+Added Pin To Net: NetName=D9/A9 Pin=S2-3
+Added Pin To Net: NetName=D8/A8 Pin=S2-4
+Added Room: Name=Duckuino
