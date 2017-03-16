@@ -67,11 +67,11 @@ Soon!
 ## Old Version Renders & Pictures
 
 ### V0.1 Photos
-![Soldered1](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/photo1.jpg)
+![Soldered1](https://raw.githubusercontent.com/afonsus1997/Duckuino/V2.0-Altium/renders/photo1.jpg)
 
-![Soldered2](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/photo2.jpg)
+![Soldered2](https://raw.githubusercontent.com/afonsus1997/Duckuino/V2.0-Altium/renders/photo2.jpg)
 
-![Soldered3](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/photo3.jpg)
+![Soldered3](https://raw.githubusercontent.com/afonsus1997/Duckuino/V2.0-Altium/renders/photo3.jpg)
 
 ### V0.1 Renders
 ![Render1](https://raw.githubusercontent.com/afonsus1997/Duckuino/master/renders/top.png)
