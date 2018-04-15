@@ -1,0 +1,24 @@
+Added Component: Designator=C1(C 0603 / 1608)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "PROD_ID"; Value = "CAP-11015"; VariantName = "[No Variations]"
+Added Component: Designator=C2(C 0603 / 1608)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "PROD_ID"; Value = "CAP-11015"; VariantName = "[No Variations]"
+Added Component: Designator=C3(C 0603 / 1608)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "PROD_ID"; Value = "CAP-11015"; VariantName = "[No Variations]"
+Added Component: Designator=C4(C 0603 / 1608)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "PROD_ID"; Value = "CAP-11015"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=3V3 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=3V3 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=UVCC Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Member To Class: ClassName=Duckuino Member=Component C1 10UF
+Added Member To Class: ClassName=Duckuino Member=Component C2 1uF
+Added Member To Class: ClassName=Duckuino Member=Component C3 0.1uF
+Added Member To Class: ClassName=Duckuino Member=Component C4 10UF

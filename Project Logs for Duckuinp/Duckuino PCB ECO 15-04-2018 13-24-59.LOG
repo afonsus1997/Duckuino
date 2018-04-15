@@ -1,0 +1,9 @@
+Added Component: Designator=X1(USB-A MALE)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=UVCC Pin=X1-1
+Added Pin To Net: NetName=UVCC Pin=X1-1
+Added Pin To Net: NetName=UVCC Pin=X1-1
+Added Pin To Net: NetName=NetR4_1 Pin=X1-2
+Added Pin To Net: NetName=NetR3_1 Pin=X1-3
+Added Pin To Net: NetName=GND Pin=X1-4
+Added Member To Class: ClassName=Duckuino Member=Component X1 

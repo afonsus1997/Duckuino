@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=Duckuino Member=L1*
+Added Component: Designator=L1(OLED I2C 0.91)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=Duckuino Member=Component L1 OLED I2C 0.96' 128X64

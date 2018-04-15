@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=GND Pin=L1-1
+Added Pin To Net: NetName=3V3 Pin=L1-2
+Added Pin To Net: NetName=D3/SCL Pin=L1-3
+Added Pin To Net: NetName=D2/SDA Pin=L1-4

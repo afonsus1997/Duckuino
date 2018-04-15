@@ -1,0 +1,26 @@
+Added Component: Designator=TP1(TP20R)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP2(TP20R)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP3(TP20R)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP4(TP20R)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP5(TP20R)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP6(TP20R)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=TP2-TP
+Added Pin To Net: NetName=D16/MOSI Pin=TP3-TP
+Added Pin To Net: NetName=D14/MISO Pin=TP4-TP
+Added Pin To Net: NetName=D15/SCK Pin=TP5-TP
+Added Pin To Net: NetName=NetR2_2 Pin=TP6-TP
+Change Net Name : Old Net Name=NetR2_2 New Net Name=RESET
+Added Pin To Net: NetName=D3/SCL Pin=U1-18
+Added Net: Name=D3/SCL
+Added Member To Class: ClassName=Duckuino Member=Component TP1 Test pad
+Added Member To Class: ClassName=Duckuino Member=Component TP2 Test pad
+Added Member To Class: ClassName=Duckuino Member=Component TP3 Test pad
+Added Member To Class: ClassName=Duckuino Member=Component TP4 Test pad
+Added Member To Class: ClassName=Duckuino Member=Component TP5 Test pad
+Added Member To Class: ClassName=Duckuino Member=Component TP6 Test pad

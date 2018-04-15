@@ -1,0 +1,66 @@
+Removed Pin From Net: NetName=D11 Pin=S2-1
+Removed Pin From Net: NetName=D10/A10 Pin=S2-2
+Removed Pin From Net: NetName=D9/A9 Pin=S2-3
+Removed Pin From Net: NetName=D8/A8 Pin=S2-4
+Removed Pin From Net: NetName=GND Pin=S2-5
+Removed Pin From Net: NetName=GND Pin=S2-6
+Removed Pin From Net: NetName=GND Pin=S2-7
+Removed Pin From Net: NetName=GND Pin=S2-8
+Removed Member From Class: ClassName=Duckuino Member=S2
+Added Component: Designator=IC1(SOT230P700X180-4N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Author"; Value = "CERN DEM JLC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Bonding"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case"; Value = "SOT223"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "1.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreateDate"; Value = "18/01/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "LM1117MP-1.8/NOPB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "\\cern.ch\dfs\Applications\Altium\Datasheets\LM1117MP-1.8-NOPB.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16/09/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TEXAS INSTRUMENTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "LM1117MP-1.8/NOPB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounted"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "SOT223, 2.30mm pitch; 3 pin, 3.70mm W X 6.70mm L, IPC Medium Density"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Description"; Value = "1.8V 800mA Low-Dropout Linear Regulator"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LM1117MP-1.8/NOPB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PressFit"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sense"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Socket"; Value = "No"; VariantName = "[No Variations]"
+Added Component: Designator=SW1(SW_CTS_219-4MST)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Author"; Value = "CERN DEM JLC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "2.23mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreateDate"; Value = "17/11/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "Switch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "\\cern.ch\dfs\Applications\Altium\Datasheets\SW_CTS_219-4MST.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17/11/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "CTS ELECTROCOMPONENTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "219-4MST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounted"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Pitch 2.54mm, Body 6.7 x 11.63mm, 4 Ways SPST Surface-Mounting DIP Switch, CTS 219 Series"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Description"; Value = "4 Ways, Pitch 2.54mm, SPST DIP Switch, Rating 100mA 50VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SW_CTS_219-4MST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PressFit"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sense"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Socket"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Status"; Value = "None"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=IC1-1
+Added Pin To Net: NetName=3V3 Pin=IC1-2
+Added Pin To Net: NetName=UVCC Pin=IC1-3
+Added Pin To Net: NetName=3V3 Pin=IC1-4
+Added Pin To Net: NetName=D11 Pin=SW1-1
+Added Pin To Net: NetName=D10/A10 Pin=SW1-2
+Added Pin To Net: NetName=D9/A9 Pin=SW1-3
+Added Pin To Net: NetName=D8/A8 Pin=SW1-4
+Added Pin To Net: NetName=GND Pin=SW1-5
+Added Pin To Net: NetName=GND Pin=SW1-6
+Added Pin To Net: NetName=GND Pin=SW1-7
+Added Pin To Net: NetName=GND Pin=SW1-8
+Added Member To Class: ClassName=Duckuino Member=Component IC1 LM1117MP-1.8/NOPB
+Added Member To Class: ClassName=Duckuino Member=Component SW1 Switch

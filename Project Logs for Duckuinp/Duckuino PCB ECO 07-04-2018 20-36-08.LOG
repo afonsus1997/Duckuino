@@ -1,0 +1,3 @@
+Added Component: Designator=*(ThumbWheel)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=Duckuino Member=Component * ThumbWheel

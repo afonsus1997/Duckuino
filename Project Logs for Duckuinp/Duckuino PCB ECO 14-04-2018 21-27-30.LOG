@@ -1,0 +1,170 @@
+Removed Pin From Net: NetName=3V3 Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=3V3 Pin=C2-1
+Removed Pin From Net: NetName=GND Pin=C2-2
+Removed Pin From Net: NetName=3V3 Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=C3-2
+Removed Pin From Net: NetName=UVCC Pin=C4-1
+Removed Pin From Net: NetName=GND Pin=C4-2
+Change Component Footprint: Designator=C1 Old Footprint=C 0603 / 1608 New Footprint=CAPC1608X87N
+Change Component Footprint: Designator=C2 Old Footprint=C 0603 / 1608 New Footprint=CAPC1608X87N
+Change Component Footprint: Designator=C3 Old Footprint=C 0603 / 1608 New Footprint=CAPC1608X87N
+Change Component Footprint: Designator=C4 Old Footprint=C 0603 / 1608 New Footprint=CAPC1608X87N
+Change Component Comment : Designator=C3 Old Comment=0.1uF New Comment=10uF
+Change Component Comment : Designator=C1 Old Comment=10UF New Comment=0.1uF
+Change component parameters: Designator = "C1"; Footprint = "CAPC1608X87N"; UniqueID = "\RHMFOGMW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Author"; Value = "CERN DEM JLC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreateDate"; Value = "03/12/2007"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "\\cern.ch\dfs\Applications\Altium\Datasheets\CC0603_X7R_PHYCOMP.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "03/12/2007"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "GENERIC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer1 ComponentHeight"; Value = "0.87mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer1 Example"; Value = "PHYCOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer1 Part Number"; Value = "223858615637"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CC0603_12NF_50V_10%_X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounted"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Description"; Value = "SMD Multilayer Chip Ceramic Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CC0603_12NF_50V_10%_X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pin Count"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Sense"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SMD"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Socket"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Status"; Value = "Preferred"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "12nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2"; Footprint = "CAPC1608X87N"; UniqueID = "\OXATUSON"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Author"; Value = "CERN DEM JLC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreateDate"; Value = "03/12/2007"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "\\cern.ch\dfs\Applications\Altium\Datasheets\CC0603_X7R_PHYCOMP.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "03/12/2007"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "GENERIC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer1 ComponentHeight"; Value = "0.87mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer1 Example"; Value = "PHYCOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer1 Part Number"; Value = "223858615637"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CC0603_12NF_50V_10%_X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounted"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Description"; Value = "SMD Multilayer Chip Ceramic Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CC0603_12NF_50V_10%_X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pin Count"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Sense"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SMD"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Socket"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Status"; Value = "Preferred"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "12nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3"; Footprint = "CAPC1608X87N"; UniqueID = "\HEDRAFAU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Author"; Value = "CERN DEM JLC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreateDate"; Value = "03/12/2007"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "\\cern.ch\dfs\Applications\Altium\Datasheets\CC0603_X7R_PHYCOMP.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "03/12/2007"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "GENERIC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer1 ComponentHeight"; Value = "0.87mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer1 Example"; Value = "PHYCOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer1 Part Number"; Value = "223858615637"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CC0603_12NF_50V_10%_X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounted"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Description"; Value = "SMD Multilayer Chip Ceramic Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CC0603_12NF_50V_10%_X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pin Count"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Sense"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SMD"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Socket"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Status"; Value = "Preferred"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "12nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4"; Footprint = "CAPC1608X87N"; UniqueID = "\VYDCQNDO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Author"; Value = "CERN DEM JLC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CreateDate"; Value = "03/12/2007"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "\\cern.ch\dfs\Applications\Altium\Datasheets\CC0603_X7R_PHYCOMP.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "03/12/2007"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "GENERIC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer1 ComponentHeight"; Value = "0.87mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer1 Example"; Value = "PHYCOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer1 Part Number"; Value = "223858615637"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CC0603_12NF_50V_10%_X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounted"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Description"; Value = "SMD Multilayer Chip Ceramic Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CC0603_12NF_50V_10%_X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pin Count"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Sense"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SMD"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Socket"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Status"; Value = "Preferred"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "12nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=LD?(LED_LITEON_LTST-C150TBKT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Author"; Value = "CERN DEM JLC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Bonding"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Blue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreateDate"; Value = "28/05/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "\\cern.ch\dfs\Applications\Altium\Datasheets\LED_LITEON_LTST-C150TBKT.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "28/05/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "DIALIGHT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "LTST-C150TBKT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounted"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "SMD InGaN Blue LED, 2-Leads, Body 3.2x1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Description"; Value = "SMT InGaN Blue LED"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LED_LITEON_LTST-C150TBKT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PressFit"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sense"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Socket"; Value = "No"; VariantName = "[No Variations]"
+Added Component: Designator=Q?(XTAL_EPSON_TSX-3225)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Author"; Value = "CERN DEM JLC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Bonding"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Ordering Informations"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "\\cern.ch\dfs\Applications\Altium\Datasheets\XTAL_EPSON_TSX-3225_Ordering-Informations.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreateDate"; Value = "06/10/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "\\cern.ch\dfs\Applications\Altium\Datasheets\XTAL_EPSON_TSX-3225.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "06/10/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "EPSON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TSX-3225 24.0000MF15X-AC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounted"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Crystal TSX-3225 Serie, Corner Concave; 4 pin, 2.50mm L X 3.2mm W X 0.6mm H"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Description"; Value = "Tolerance ±10 ppm,  Stability:± 15ppm, -40°C to 85°C, 9pF, Surface Mount Quartz Crystal, TX-3225 Series"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "XTAL_24MHZ_EPSON_TSX-3225 24.0000MF15X-AC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PressFit"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sense"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SMD"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Socket"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "24MHz"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=3V3 Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=3V3 Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=3V3 Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=UVCC Pin=C4-2
+Added Pin To Net: NetName=XTAL1 Pin=Q?-1
+Added Pin To Net: NetName=XTAL2 Pin=Q?-3
+Added Member To Class: ClassName=Duckuino Member=Component LD? Blue
+Added Member To Class: ClassName=Duckuino Member=Component Q? 24MHz
