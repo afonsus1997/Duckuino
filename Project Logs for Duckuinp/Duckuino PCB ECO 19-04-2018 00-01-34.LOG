@@ -1,0 +1,10 @@
+Added Component: Designator=J1(USB-A-SMT-MALE)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "PROD_ID"; Value = "CONN-11499"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR3_1 Pin=J1-D+1
+Added Pin To Net: NetName=NetR4_1 Pin=J1-D-1
+Added Pin To Net: NetName=GND Pin=J1-GND1
+Added Pin To Net: NetName=UVCC Pin=J1-VBUS1
+Change Net Name : Old Net Name=NetR3_1 New Net Name=NetJ1_D+1
+Change Net Name : Old Net Name=NetR4_1 New Net Name=NetJ1_D-1
+Added Member To Class: ClassName=Duckuino Member=Component J1 
