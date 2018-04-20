@@ -1,10 +1,12 @@
-Output: Mixed Sim
-Type  : AdvSimNetlist
+Output: NC Drill Files
+Type  : NC Drill
 From  : Project [Duckuinp.PrjPcb]
-   Generated File[Duckuinp.nsx]
+   Generated File[Duckuino.TXT]
+   Generated File[Duckuino.LDP]
+   Generated File[Duckuino.DRR]
 
 
-Files Generated   : 1
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 17:52:00 On 16/03/2017
+Finished Output Generation At 12:33:37 On 20/04/2018
