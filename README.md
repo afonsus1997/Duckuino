@@ -36,11 +36,11 @@ PINMAP of the ATMEGA32u4
 
 ### V2.0 Altium Renders
 
-![Altium](https://raw.githubusercontent.com/afonsus1997/Duckuino/V2.0-Altium/pics and renders/2.png)
+![Altium](https://raw.githubusercontent.com/afonsus1997/Duckuino/V2.0-Altium/pics%20and%20renders/2.png)
 
-![Altium2](https://raw.githubusercontent.com/afonsus1997/Duckuino/V2.0-Altium/pics and renders/1.png)
+![Altium2](https://raw.githubusercontent.com/afonsus1997/Duckuino/V2.0-Altium/pics%20and%20renders/1.png)
 
-![Fab](https://raw.githubusercontent.com/afonsus1997/Duckuino/V2.0-Altium/pics and renders/fab.png)
+![Fab](https://raw.githubusercontent.com/afonsus1997/Duckuino/V2.0-Altium/pics%20and%20renders/fab.png)
 
 ## Old Version Renders & Pictures
 
