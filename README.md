@@ -1,6 +1,6 @@
 
-![LOGO](https://raw.githubusercontent.com/afonsus1997/Duckuino/V2.0-Altium/Code/Firmware/media/Splash.png)
-# Duckuino
+# ![LOGO](https://raw.githubusercontent.com/afonsus1997/Duckuino/V2.0-Altium/Code/Firmware/media/Splash.png)
+
 
 ### The truly open-source atmega32u4 ducky clone (V2.0)
 
