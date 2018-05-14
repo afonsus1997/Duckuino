@@ -716,32 +716,32 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  .debug_frame   0x000003c0       0x20 LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
  .debug_frame   0x000003e0       0x50 LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
 
-.debug_str      0x00000000     0x2079
+.debug_str      0x00000000     0x2075
  *(.debug_str)
- .debug_str     0x00000000      0x5b7 Caterina.o
-                                0x645 (size before relaxing)
- .debug_str     0x000005b7      0x52c Descriptors.o
-                                0x65d (size before relaxing)
- .debug_str     0x00000ae3       0x7d LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
-                                0x13c (size before relaxing)
- .debug_str     0x00000b60      0x25c LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
-                                0x498 (size before relaxing)
- .debug_str     0x00000dbc      0x214 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
-                                0x401 (size before relaxing)
- .debug_str     0x00000fd0       0xef LUFA-111009/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
-                                0x3b2 (size before relaxing)
- .debug_str     0x000010bf      0x4cd LUFA-111009/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
-                                0x75a (size before relaxing)
- .debug_str     0x0000158c      0x222 LUFA-111009/LUFA/Drivers/USB/Core/ConfigDescriptor.o
-                                0x309 (size before relaxing)
- .debug_str     0x000017ae      0x38a LUFA-111009/LUFA/Drivers/USB/Core/DeviceStandardReq.o
-                                0x66a (size before relaxing)
- .debug_str     0x00001b38       0x3a LUFA-111009/LUFA/Drivers/USB/Core/Events.o
-                                 0xf3 (size before relaxing)
- .debug_str     0x00001b72       0x70 LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
-                                0x283 (size before relaxing)
- .debug_str     0x00001be2      0x497 LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
-                                0x5e1 (size before relaxing)
+ .debug_str     0x00000000      0x5b3 Caterina.o
+                                0x641 (size before relaxing)
+ .debug_str     0x000005b3      0x52c Descriptors.o
+                                0x659 (size before relaxing)
+ .debug_str     0x00000adf       0x7d LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+                                0x138 (size before relaxing)
+ .debug_str     0x00000b5c      0x25c LUFA-111009/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                                0x494 (size before relaxing)
+ .debug_str     0x00000db8      0x214 LUFA-111009/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                0x3fd (size before relaxing)
+ .debug_str     0x00000fcc       0xef LUFA-111009/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                0x3ae (size before relaxing)
+ .debug_str     0x000010bb      0x4cd LUFA-111009/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                0x756 (size before relaxing)
+ .debug_str     0x00001588      0x222 LUFA-111009/LUFA/Drivers/USB/Core/ConfigDescriptor.o
+                                0x305 (size before relaxing)
+ .debug_str     0x000017aa      0x38a LUFA-111009/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                0x666 (size before relaxing)
+ .debug_str     0x00001b34       0x3a LUFA-111009/LUFA/Drivers/USB/Core/Events.o
+                                 0xef (size before relaxing)
+ .debug_str     0x00001b6e       0x70 LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
+                                0x27f (size before relaxing)
+ .debug_str     0x00001bde      0x497 LUFA-111009/LUFA/Drivers/USB/Class/Common/HIDParser.o
+                                0x5dd (size before relaxing)
 
 .debug_loc      0x00000000     0x28a3
  *(.debug_loc)

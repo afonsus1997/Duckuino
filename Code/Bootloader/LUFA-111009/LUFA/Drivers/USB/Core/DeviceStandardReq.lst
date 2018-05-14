@@ -521,13 +521,13 @@
  554               	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:00000000 DeviceStandardReq.c
-C:\Users\AFONSO~1\AppData\Local\Temp/ccYv2e9C.s:2      *ABS*:0000003f __SREG__
-C:\Users\AFONSO~1\AppData\Local\Temp/ccYv2e9C.s:3      *ABS*:0000003e __SP_H__
-C:\Users\AFONSO~1\AppData\Local\Temp/ccYv2e9C.s:4      *ABS*:0000003d __SP_L__
-C:\Users\AFONSO~1\AppData\Local\Temp/ccYv2e9C.s:5      *ABS*:00000034 __CCP__
-C:\Users\AFONSO~1\AppData\Local\Temp/ccYv2e9C.s:6      *ABS*:00000000 __tmp_reg__
-C:\Users\AFONSO~1\AppData\Local\Temp/ccYv2e9C.s:7      *ABS*:00000001 __zero_reg__
-C:\Users\AFONSO~1\AppData\Local\Temp/ccYv2e9C.s:19     .text.USB_Device_ProcessControlRequest:00000000 USB_Device_ProcessControlRequest
+C:\Users\AFONSO~1\AppData\Local\Temp/ccU4IJbi.s:2      *ABS*:0000003f __SREG__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccU4IJbi.s:3      *ABS*:0000003e __SP_H__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccU4IJbi.s:4      *ABS*:0000003d __SP_L__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccU4IJbi.s:5      *ABS*:00000034 __CCP__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccU4IJbi.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccU4IJbi.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccU4IJbi.s:19     .text.USB_Device_ProcessControlRequest:00000000 USB_Device_ProcessControlRequest
                             *COM*:00000001 USB_Device_ConfigurationNumber
 
 UNDEFINED SYMBOLS

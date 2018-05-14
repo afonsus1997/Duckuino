@@ -250,10 +250,6 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for Duckuinp\Duckuino.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument16]
-DocumentPath=Project Outputs for Duckuinp\Duckuinp.nsx
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0

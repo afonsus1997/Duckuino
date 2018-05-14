@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=D6/A7 Pin=R6-1
+Removed Pin From Net: NetName=D11 Pin=SW1-1
+Removed Pin From Net: NetName=D10/A10 Pin=SW1-2
+Removed Pin From Net: NetName=D9/A9 Pin=SW1-3
+Removed Pin From Net: NetName=D8/A8 Pin=SW1-4
+Removed Pin From Net: NetName=D12 Pin=SW2-1
+Removed Pin From Net: NetName=D13 Pin=SW2-2
+Added Pin To Net: NetName=D13 Pin=SW1-2
+Added Pin To Net: NetName=D8/A8 Pin=SW2-1
+Added Pin To Net: NetName=D6/A7 Pin=SW2-2

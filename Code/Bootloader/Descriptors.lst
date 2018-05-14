@@ -217,18 +217,18 @@
  260               	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:00000000 Descriptors.c
-C:\Users\AFONSO~1\AppData\Local\Temp/cc6cO3Cd.s:2      *ABS*:0000003f __SREG__
-C:\Users\AFONSO~1\AppData\Local\Temp/cc6cO3Cd.s:3      *ABS*:0000003e __SP_H__
-C:\Users\AFONSO~1\AppData\Local\Temp/cc6cO3Cd.s:4      *ABS*:0000003d __SP_L__
-C:\Users\AFONSO~1\AppData\Local\Temp/cc6cO3Cd.s:5      *ABS*:00000034 __CCP__
-C:\Users\AFONSO~1\AppData\Local\Temp/cc6cO3Cd.s:6      *ABS*:00000000 __tmp_reg__
-C:\Users\AFONSO~1\AppData\Local\Temp/cc6cO3Cd.s:7      *ABS*:00000001 __zero_reg__
-C:\Users\AFONSO~1\AppData\Local\Temp/cc6cO3Cd.s:19     .text.CALLBACK_USB_GetDescriptor:00000000 CALLBACK_USB_GetDescriptor
-C:\Users\AFONSO~1\AppData\Local\Temp/cc6cO3Cd.s:110    .data:00000000 DeviceDescriptor
-C:\Users\AFONSO~1\AppData\Local\Temp/cc6cO3Cd.s:128    .data:00000012 ConfigurationDescriptor
-C:\Users\AFONSO~1\AppData\Local\Temp/cc6cO3Cd.s:189    .data:00000050 LanguageString
-C:\Users\AFONSO~1\AppData\Local\Temp/cc6cO3Cd.s:196    .data:00000054 ProductString
-C:\Users\AFONSO~1\AppData\Local\Temp/cc6cO3Cd.s:220    .data:00000078 ManufNameString
+C:\Users\AFONSO~1\AppData\Local\Temp/ccb6pghD.s:2      *ABS*:0000003f __SREG__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccb6pghD.s:3      *ABS*:0000003e __SP_H__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccb6pghD.s:4      *ABS*:0000003d __SP_L__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccb6pghD.s:5      *ABS*:00000034 __CCP__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccb6pghD.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccb6pghD.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccb6pghD.s:19     .text.CALLBACK_USB_GetDescriptor:00000000 CALLBACK_USB_GetDescriptor
+C:\Users\AFONSO~1\AppData\Local\Temp/ccb6pghD.s:110    .data:00000000 DeviceDescriptor
+C:\Users\AFONSO~1\AppData\Local\Temp/ccb6pghD.s:128    .data:00000012 ConfigurationDescriptor
+C:\Users\AFONSO~1\AppData\Local\Temp/ccb6pghD.s:189    .data:00000050 LanguageString
+C:\Users\AFONSO~1\AppData\Local\Temp/ccb6pghD.s:196    .data:00000054 ProductString
+C:\Users\AFONSO~1\AppData\Local\Temp/ccb6pghD.s:220    .data:00000078 ManufNameString
 
 UNDEFINED SYMBOLS
 __do_copy_data

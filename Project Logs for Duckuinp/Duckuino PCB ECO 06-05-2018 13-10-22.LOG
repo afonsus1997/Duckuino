@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=3V3 Pin=TP6-TP
+Removed Pin From Net: NetName=3V3 Pin=U1-13
+Added Pin To Net: NetName=RESET Pin=TP6-TP
+Added Pin To Net: NetName=RESET Pin=U1-13
+Added Net: Name=RESET

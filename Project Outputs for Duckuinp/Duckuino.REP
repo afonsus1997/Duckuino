@@ -46,6 +46,7 @@ Generating : Bottom Layer
 
 Used DCodes :
     D13
+    D18
     D24
     D25
     D26
@@ -75,6 +76,7 @@ Generating : Bottom Pad Master
 
 Used DCodes :
     D13
+    D18
     D25
     D26
     D27
@@ -187,6 +189,7 @@ Generating : Bottom Solder
 
 Used DCodes :
     D48
+    D53
     D59
     D60
     D61

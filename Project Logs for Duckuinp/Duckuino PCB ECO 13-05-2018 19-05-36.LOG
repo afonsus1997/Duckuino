@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=RESET Pin=R7-1
+Change Component Comment : Designator=R5 Old Comment=22R New Comment=330
+Change Component Comment : Designator=R6 Old Comment=22R New Comment=330
+Added Pin To Net: NetName=3V3 Pin=R7-1
+Added Pin To Net: NetName=RESET Pin=R7-2
+Added Pin To Net: NetName=RESET Pin=U1-13
