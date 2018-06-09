@@ -62,62 +62,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Pad Master
-      File : Duckuino.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D17
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : Duckuino.GPT
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-*************************************************************
-
-*************************************************************
 Generating : Top Overlay
       File : Duckuino.GTO
 
@@ -200,6 +144,7 @@ Generating : Bottom Overlay
 
 
 Used DCodes :
+    D23
     D66
     D67
     D68
@@ -208,14 +153,23 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 6
-      File : Duckuino.GM6
+Generating : Keep-Out Layer
+      File : Duckuino.GKO
 
-    Adding Layer      : Mechanical 6
+    Adding Layer      : Keep-Out Layer
 
 
 Used DCodes :
-    D23
-    D69
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : Duckuino.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D38
 *************************************************************
 

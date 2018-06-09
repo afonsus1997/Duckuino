@@ -1,21 +1,20 @@
 Output: Gerber Files
 Type  : Gerber
-From  : Variant [[No Variations]] of Project [Duckuinp.PrjPcb]
+From  : Variant [[No Variations]] of Project [Free Documents]
    Generated File[Duckuino.GTL]
    Generated File[Duckuino.GBL]
-   Generated File[Duckuino.GPB]
-   Generated File[Duckuino.GPT]
    Generated File[Duckuino.GTO]
    Generated File[Duckuino.GTS]
    Generated File[Duckuino.GBS]
    Generated File[Duckuino.GBO]
-   Generated File[Duckuino.GM6]
+   Generated File[Duckuino.GKO]
+   Generated File[Duckuino.GM1]
    Generated File[Duckuino.RUL]
    Generated File[Duckuino.EXTREP]
    Generated File[Duckuino.REP]
 
 
-Files Generated   : 12
+Files Generated   : 11
 Documents Printed : 0
 
-Finished Output Generation At 13:46:28 On 31/05/2018
+Finished Output Generation At 13:05:45 On 31/05/2018

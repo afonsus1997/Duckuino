@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=GND Pin=C5-1
+Removed Pin From Net: NetName=XTAL1 Pin=C5-2
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=XTAL2 Pin=C6-2
+Removed Pin From Net: NetName=XTAL1 Pin=Q1-1
+Removed Pin From Net: NetName=XTAL2 Pin=Q1-3
+Removed Member From Class: ClassName=Duckuino Member=C5
+Removed Member From Class: ClassName=Duckuino Member=C6
+Removed Member From Class: ClassName=Duckuino Member=Q1
+Added Component: Designator=Y?(OSC_CSTCE8M00G55-R0)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Good"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CSTCE8M00G55-R0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMD-3 Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.27 USD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CSTCE8M00G55-R0/Murata%20Electronics%20North%20America/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=XTAL1 Pin=Y?-1
+Added Pin To Net: NetName=GND Pin=Y?-2
+Added Pin To Net: NetName=XTAL2 Pin=Y?-3
+Added Member To Class: ClassName=Duckuino Member=Component Y? CSTCE8M00G55-R0

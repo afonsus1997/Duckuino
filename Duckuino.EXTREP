@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Duckuino.GBR   31/05/2018  13:46:26
+Gerber File Extension Report For: Duckuino.GBR   31/05/2018  13:05:43
 ------------------------------------------------------------------------------------------
 
 
@@ -8,11 +8,10 @@ Layer Extension     Layer Description
 ------------------------------------------------------------------------------------------
 .GTL                Top Layer                               
 .GBL                Bottom Layer                            
-.GPB                Bottom Pad Master                       
-.GPT                Top Pad Master                          
 .GTO                Top Overlay                             
 .GTS                Top Solder                              
 .GBS                Bottom Solder                           
 .GBO                Bottom Overlay                          
-.GM6                Mechanical 6                            
+.GKO                Keep-Out Layer                          
+.GM1                Mechanical 1                            
 ------------------------------------------------------------------------------------------
