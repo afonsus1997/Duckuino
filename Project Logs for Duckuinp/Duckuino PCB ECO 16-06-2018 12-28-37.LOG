@@ -1,0 +1,8 @@
+Added Component: Designator=S?(SW_MLL1200S)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Good"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "MLL1200S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "1.54 USD"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Duckuino Member=Component S? 
