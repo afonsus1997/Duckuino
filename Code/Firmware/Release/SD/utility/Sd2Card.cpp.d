@@ -1,4 +1,4 @@
-C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\SD\utility\Sd2Card.cpp.o: \
+C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\SD\utility\Sd2Card.cpp.o: \
  C:\Program\ Files\ (x86)\Arduino\libraries\SD\src\utility\Sd2Card.cpp \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/binary.h \

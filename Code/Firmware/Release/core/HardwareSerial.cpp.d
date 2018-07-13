@@ -1,4 +1,4 @@
-C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\core\HardwareSerial.cpp.o: \
+C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\core\HardwareSerial.cpp.o: \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.cpp \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\Arduino.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\binary.h \

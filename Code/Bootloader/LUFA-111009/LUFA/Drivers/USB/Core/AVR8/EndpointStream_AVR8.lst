@@ -3712,34 +3712,34 @@
  3955               	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:00000000 EndpointStream_AVR8.c
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:2      *ABS*:0000003f __SREG__
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:3      *ABS*:0000003e __SP_H__
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:4      *ABS*:0000003d __SP_L__
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:5      *ABS*:00000034 __CCP__
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:6      *ABS*:00000000 __tmp_reg__
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:7      *ABS*:00000001 __zero_reg__
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:19     .text.Endpoint_Write_Control_Stream_LE:00000000 Endpoint_Write_Control_Stream_LE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:218    .text.Endpoint_Write_Control_Stream_BE:00000000 Endpoint_Write_Control_Stream_BE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:424    .text.Endpoint_Read_Control_Stream_LE:00000000 Endpoint_Read_Control_Stream_LE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:575    .text.Endpoint_Read_Control_Stream_BE:00000000 Endpoint_Read_Control_Stream_BE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:739    .text.Endpoint_Write_Control_PStream_LE:00000000 Endpoint_Write_Control_PStream_LE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:949    .text.Endpoint_Write_Control_PStream_BE:00000000 Endpoint_Write_Control_PStream_BE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:1165   .text.Endpoint_Read_Control_EStream_BE:00000000 Endpoint_Read_Control_EStream_BE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:1351   .text.Endpoint_Read_Control_EStream_LE:00000000 Endpoint_Read_Control_EStream_LE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:1523   .text.Endpoint_Write_Control_EStream_BE:00000000 Endpoint_Write_Control_EStream_BE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:1757   .text.Endpoint_Write_Control_EStream_LE:00000000 Endpoint_Write_Control_EStream_LE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:1982   .text.Endpoint_Null_Stream:00000000 Endpoint_Null_Stream
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:2106   .text.Endpoint_Discard_Stream:00000000 Endpoint_Discard_Stream
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:2234   .text.Endpoint_Read_EStream_BE:00000000 Endpoint_Read_EStream_BE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:2381   .text.Endpoint_Read_EStream_LE:00000000 Endpoint_Read_EStream_LE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:2538   .text.Endpoint_Write_EStream_BE:00000000 Endpoint_Write_EStream_BE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:2685   .text.Endpoint_Write_EStream_LE:00000000 Endpoint_Write_EStream_LE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:2842   .text.Endpoint_Write_PStream_BE:00000000 Endpoint_Write_PStream_BE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:3000   .text.Endpoint_Write_PStream_LE:00000000 Endpoint_Write_PStream_LE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:3166   .text.Endpoint_Read_Stream_BE:00000000 Endpoint_Read_Stream_BE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:3313   .text.Endpoint_Read_Stream_LE:00000000 Endpoint_Read_Stream_LE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:3466   .text.Endpoint_Write_Stream_BE:00000000 Endpoint_Write_Stream_BE
-C:\Users\AFONSO~1\AppData\Local\Temp/ccQbWSGt.s:3613   .text.Endpoint_Write_Stream_LE:00000000 Endpoint_Write_Stream_LE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:2      *ABS*:0000003f __SREG__
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:3      *ABS*:0000003e __SP_H__
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:4      *ABS*:0000003d __SP_L__
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:5      *ABS*:00000034 __CCP__
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:19     .text.Endpoint_Write_Control_Stream_LE:00000000 Endpoint_Write_Control_Stream_LE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:218    .text.Endpoint_Write_Control_Stream_BE:00000000 Endpoint_Write_Control_Stream_BE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:424    .text.Endpoint_Read_Control_Stream_LE:00000000 Endpoint_Read_Control_Stream_LE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:575    .text.Endpoint_Read_Control_Stream_BE:00000000 Endpoint_Read_Control_Stream_BE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:739    .text.Endpoint_Write_Control_PStream_LE:00000000 Endpoint_Write_Control_PStream_LE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:949    .text.Endpoint_Write_Control_PStream_BE:00000000 Endpoint_Write_Control_PStream_BE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:1165   .text.Endpoint_Read_Control_EStream_BE:00000000 Endpoint_Read_Control_EStream_BE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:1351   .text.Endpoint_Read_Control_EStream_LE:00000000 Endpoint_Read_Control_EStream_LE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:1523   .text.Endpoint_Write_Control_EStream_BE:00000000 Endpoint_Write_Control_EStream_BE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:1757   .text.Endpoint_Write_Control_EStream_LE:00000000 Endpoint_Write_Control_EStream_LE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:1982   .text.Endpoint_Null_Stream:00000000 Endpoint_Null_Stream
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:2106   .text.Endpoint_Discard_Stream:00000000 Endpoint_Discard_Stream
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:2234   .text.Endpoint_Read_EStream_BE:00000000 Endpoint_Read_EStream_BE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:2381   .text.Endpoint_Read_EStream_LE:00000000 Endpoint_Read_EStream_LE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:2538   .text.Endpoint_Write_EStream_BE:00000000 Endpoint_Write_EStream_BE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:2685   .text.Endpoint_Write_EStream_LE:00000000 Endpoint_Write_EStream_LE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:2842   .text.Endpoint_Write_PStream_BE:00000000 Endpoint_Write_PStream_BE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:3000   .text.Endpoint_Write_PStream_LE:00000000 Endpoint_Write_PStream_LE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:3166   .text.Endpoint_Read_Stream_BE:00000000 Endpoint_Read_Stream_BE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:3313   .text.Endpoint_Read_Stream_LE:00000000 Endpoint_Read_Stream_LE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:3466   .text.Endpoint_Write_Stream_BE:00000000 Endpoint_Write_Stream_BE
+C:\Users\AFONSO~1\AppData\Local\Temp/cctjctOm.s:3613   .text.Endpoint_Write_Stream_LE:00000000 Endpoint_Write_Stream_LE
 
 UNDEFINED SYMBOLS
 USB_ControlRequest

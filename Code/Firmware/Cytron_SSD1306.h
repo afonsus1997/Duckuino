@@ -11,7 +11,7 @@ All text above, and the splash screen below must be included in any redistributi
 *********************************************************************/
 #ifndef _CYTRON_SSD1306_H_
 #define _CYTRON_SSD1306_H_
-
+ 
 #include "AvrI2c.h"
 #include <SSD1306Ascii.h>
 
@@ -187,7 +187,7 @@ class Cytron_SSD1306 : public SSD1306Ascii {
    * @param[in] i2cAddr The I2C address of the display controller.
    * @param[in] fastMode Fast 400 kHz mode if true else standard 100 kHz mode.
    */
-  void begin(const DevType* dev = &Adafruit128x64, uint8_t i2cAddr = SSD1306_I2C_ADDRESS, bool fastMode = true) {
+  void begin(const DevType* dev = &Adafruit128x32, uint8_t i2cAddr = SSD1306_I2C_ADDRESS, bool fastMode = true) {
     m_nData = 0;
     m_i2cAddr = i2cAddr;
 

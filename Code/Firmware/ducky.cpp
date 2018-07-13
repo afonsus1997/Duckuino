@@ -1,5 +1,6 @@
 #include "ducky.h"
-
+#include "Keyboard_PT.h"
+//#include "Mouse.h"
 File payload;
 
 char* buf = malloc(sizeof(char)*buffersize);
@@ -201,76 +202,92 @@ void duckySetup() {
   digitalWrite(led2, LOW);
   delay(250);
 
-  String scriptName = "script"; // Name of the file that will be opened
 
   pinMode(dip1, INPUT_PULLUP);
   pinMode(dip2, INPUT_PULLUP);
   pinMode(dip3, INPUT_PULLUP);
   pinMode(dip4, INPUT_PULLUP);
 
-  if(digitalRead(dip1) == LOW){scriptName += '1';} else {scriptName += '0';}
-  if(digitalRead(dip2) == LOW){scriptName += '1';} else {scriptName += '0';}
-  if(digitalRead(dip3) == LOW){scriptName += '1';} else {scriptName += '0';}
-  if(digitalRead(dip4) == LOW){scriptName += '1';} else {scriptName += '0';}
+  pinMode(left, INPUT_PULLUP);
+  pinMode(right, INPUT_PULLUP);
+  pinMode(center, INPUT_PULLUP);
 
-  scriptName += ".txt";
+  
+}
 
-  if(!SD.begin(4)) {
-    #ifdef debug
-      Serial.println("couldn't access sd-card :(");
-    #endif
-    return;
-  }
+void runDucky() {
+	
+	String scriptName = "script"; // Name of the file that will be opened
 
-  payload = SD.open(scriptName);
-  if(!payload){
+	if (digitalRead(dip1) == LOW) { scriptName += '1'; }
+	else { scriptName += '0'; }
+	if (digitalRead(dip2) == LOW) { scriptName += '1'; }
+	else { scriptName += '0'; }
+	if (digitalRead(dip3) == LOW) { scriptName += '1'; }
+	else { scriptName += '0'; }
+	if (digitalRead(dip4) == LOW) { scriptName += '1'; }
+	else { scriptName += '0'; }
+
+	scriptName += ".txt";
+
+	if (!SD.begin(4)) {
 #ifdef debug
-    Serial.println("couldn't find script: '"+String(scriptName)+"'");
+		Serial.println("couldn't access sd-card :(");
 #endif
-    return;
-  }else{
-    Keyboard.begin();
-    Mouse.begin();
-    while(payload.available()){
+		return;
+	}
 
-      buf[bufSize] = payload.read();
-      if(buf[bufSize] == '\r' || buf[bufSize] == '\n' || bufSize >= buffersize){
-        if(buf[bufSize] == '\r' && payload.peek() == '\n') payload.read();
+	payload = SD.open(scriptName);
+	if (!payload) {
+#ifdef debug
+		Serial.println("couldn't find script: '" + String(scriptName) + "'");
+#endif
+		return;
+	}
+	else {
+		Keyboard.begin();
+		//Mouse.begin();
+		while (payload.available()) {
 
-        //---------REPEAT---------
-        int repeatBufferSize = 0;
-        int repeats = 0;
-        unsigned long payloadPosition = payload.position();
+			buf[bufSize] = payload.read();
+			if (buf[bufSize] == '\r' || buf[bufSize] == '\n' || bufSize >= buffersize) {
+				if (buf[bufSize] == '\r' && payload.peek() == '\n') payload.read();
 
-        for(int i=0;i<12;i++){
-          if(payload.available()){
-            repeatBuffer[repeatBufferSize] = payload.read();
-            repeatBufferSize++;
-          }else break;
-        }
+				//---------REPEAT---------
+				int repeatBufferSize = 0;
+				int repeats = 0;
+				unsigned long payloadPosition = payload.position();
 
-        if(repeatBufferSize > 6){
-          if(equals(repeatBuffer, 0, 6, "REPEAT", 6)){
-            repeats = getInt(repeatBuffer, 6);
-          }
-        }
+				for (int i = 0; i<12; i++) {
+					if (payload.available()) {
+						repeatBuffer[repeatBufferSize] = payload.read();
+						repeatBufferSize++;
+					}
+					else break;
+				}
 
-        for(int i=0;i<repeats;i++) runLine();
+				if (repeatBufferSize > 6) {
+					if (equals(repeatBuffer, 0, 6, "REPEAT", 6)) {
+						repeats = getInt(repeatBuffer, 6);
+					}
+				}
 
-        payload.seek(payloadPosition);
-        //------------------------
+				for (int i = 0; i<repeats; i++) runLine();
 
-        runLine();
-        bufSize = 0;
-      }
-      else bufSize++;
-    }
-    if(bufSize > 0){
-      runLine();
-      bufSize = 0;
-    }
-    payload.close();
-    Mouse.end();
-    Keyboard.end();
-  }
+				payload.seek(payloadPosition);
+				//------------------------
+
+				runLine();
+				bufSize = 0;
+			}
+			else bufSize++;
+		}
+		if (bufSize > 0) {
+			runLine();
+			bufSize = 0;
+		}
+		payload.close();
+		//Mouse.end();
+		Keyboard.end();
+	}
 }

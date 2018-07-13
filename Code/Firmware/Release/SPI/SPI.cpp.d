@@ -1,4 +1,4 @@
-C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\SPI\SPI.cpp.o: \
+C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\SPI\SPI.cpp.o: \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\SPI\src\SPI.cpp \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\SPI\src\SPI.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \

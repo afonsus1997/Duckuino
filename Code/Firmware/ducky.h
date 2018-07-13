@@ -21,11 +21,13 @@
 #define KEYPAD_SLASH 220
 #define PRINTSCREEN 206
 
-#include "Keyboard_PT.h"
+//#include "Keyboard_PT.h"
+//#include <Keyboard.h>
 #include "Mouse.h"
 #include <SPI.h>
 #include <SD.h>
 #include "pins.h"
+
 
 int getSpace(int start, int end);
 
@@ -45,5 +47,6 @@ void runCommand(int s, int e);
 
 void duckySetup();
 
+void runDucky();
 
 #endif

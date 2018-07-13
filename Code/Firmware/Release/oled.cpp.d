@@ -1,13 +1,13 @@
-C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\oled.cpp.o: \
- C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\oled.cpp \
- C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\oled.h \
+C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\oled.cpp.o: \
+ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\oled.cpp \
+ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\oled.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src/Wire.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Stream.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Print.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/WString.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Printable.h \
- C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\Cytron_SSD1306.h \
- C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\AvrI2c.h \
+ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\Cytron_SSD1306.h \
+ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\AvrI2c.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/binary.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/WCharacter.h \
@@ -67,5 +67,5 @@ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_
  C:\Program\ Files\ (x86)\Arduino\libraries\SSD1306Ascii\src/fonts/font8x8.h \
  C:\Program\ Files\ (x86)\Arduino\libraries\SSD1306Ascii\src/fonts/cp437font8x8.h \
  C:\Program\ Files\ (x86)\Arduino\libraries\SSD1306Ascii\src/fonts/utf8font10x16.h \
- C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\pins.h \
- C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\splash.h
+ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\pins.h \
+ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\splash.h

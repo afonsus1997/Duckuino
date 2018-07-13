@@ -1,7 +1,7 @@
-C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\Cytron_SSD1306.cpp.o: \
- C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\Cytron_SSD1306.cpp \
- C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\Cytron_SSD1306.h \
- C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\AvrI2c.h \
+C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\Cytron_SSD1306.cpp.o: \
+ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\Cytron_SSD1306.cpp \
+ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\Cytron_SSD1306.h \
+ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\AvrI2c.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/binary.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/WCharacter.h \

@@ -35,7 +35,6 @@
 
 #define  INCLUDE_FROM_CATERINA_C
 #include "Caterina.h"
-
 /** Contains the current baud rate and other settings of the first virtual serial port. This must be retained as some
  *  operating systems will not open the port unless the settings can be set successfully.
  */
@@ -125,7 +124,7 @@ int main(void)
 	DDRB = 0b000010000; 
 	PORTB = 0b000010000;
 
-	if (!(PINB & 0b000010000)) {		
+	if ((PINB & 0b000010000)) {		
 		// After a power-on reset skip the bootloader and jump straight to sketch 
 		// if one exists.	
 		StartSketch();

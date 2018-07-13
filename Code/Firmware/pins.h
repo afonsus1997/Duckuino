@@ -10,5 +10,9 @@
 #define led1 6
 #define led2 7
 
+#define left 12
+#define right 11
+#define center 8
+
 #define blinkInterval 250
 #endif

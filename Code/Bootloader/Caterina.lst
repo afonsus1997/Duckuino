@@ -15,7 +15,7 @@
   23               	/* frame size = 0 */
   24               	.LSM1:
   25               	/* #APP */
-  26               	 ;  73 "Caterina.c" 1
+  26               	 ;  72 "Caterina.c" 1
   27 0000 F894      		cli
   28               	 ;  0 "" 2
   29               	.LSM2:
@@ -40,7 +40,7 @@
   48 001c 2898      		cbi 37-32,0
   49               	.LSM11:
   50               	/* #APP */
-  51               	 ;  90 "Caterina.c" 1
+  51               	 ;  89 "Caterina.c" 1
   52 001e 0C94 0000 		jmp 0x0000
   53               	 ;  0 "" 2
   54               	/* epilogue start */
@@ -138,7 +138,7 @@
  150 0056 F0E0      		ldi r31,hi8(0)
  151               	.LVL1:
  152               	/* #APP */
- 153               	 ;  208 "Caterina.c" 1
+ 153               	 ;  207 "Caterina.c" 1
  154 0058 8591      		lpm r24, Z+
  155 005a 9491      		lpm r25, Z
  156               		
@@ -373,7 +373,7 @@
  389 005a 00C0      		rjmp .L85
  390 005c 81E1      		ldi r24,lo8(17)
  391               	/* #APP */
- 392               	 ;  492 "Caterina.c" 1
+ 392               	 ;  491 "Caterina.c" 1
  393 005e 8093 5700 		sts 87, r24
  394 0062 E895      		spm
  395               		
@@ -522,7 +522,7 @@
  538               	.L47:
  539               	.LSM89:
  540               	/* #APP */
- 541               	 ;  556 "Caterina.c" 1
+ 541               	 ;  555 "Caterina.c" 1
  542 0112 9093 5700 		sts 87, r25
  543 0116 E895      		spm
  544               		
@@ -535,7 +535,7 @@
  551 011c 00C0      		rjmp .L45
  552               	.LSM91:
  553               	/* #APP */
- 554               	 ;  558 "Caterina.c" 1
+ 554               	 ;  557 "Caterina.c" 1
  555 011e 8093 5700 		sts 87, r24
  556 0122 E895      		spm
  557               		
@@ -567,7 +567,7 @@
  583 0140 89E0      		ldi r24,lo8(9)
  584               	.LVL32:
  585               	/* #APP */
- 586               	 ;  577 "Caterina.c" 1
+ 586               	 ;  576 "Caterina.c" 1
  587 0142 8093 5700 		sts 87, r24
  588 0146 8491      		lpm r24, Z
  589               		
@@ -588,7 +588,7 @@
  604 0152 89E0      		ldi r24,lo8(9)
  605               	.LVL35:
  606               	/* #APP */
- 607               	 ;  581 "Caterina.c" 1
+ 607               	 ;  580 "Caterina.c" 1
  608 0154 8093 5700 		sts 87, r24
  609 0158 8491      		lpm r24, Z
  610               		
@@ -609,7 +609,7 @@
  625 0164 89E0      		ldi r24,lo8(9)
  626               	.LVL38:
  627               	/* #APP */
- 628               	 ;  585 "Caterina.c" 1
+ 628               	 ;  584 "Caterina.c" 1
  629 0166 8093 5700 		sts 87, r24
  630 016a 8491      		lpm r24, Z
  631               		
@@ -630,7 +630,7 @@
  646 0176 89E0      		ldi r24,lo8(9)
  647               	.LVL41:
  648               	/* #APP */
- 649               	 ;  589 "Caterina.c" 1
+ 649               	 ;  588 "Caterina.c" 1
  650 0178 8093 5700 		sts 87, r24
  651 017c 8491      		lpm r24, Z
  652               		
@@ -707,7 +707,7 @@
  723               	.LSM116:
  724 01d6 81E1      		ldi r24,lo8(17)
  725               	/* #APP */
- 726               	 ;  307 "Caterina.c" 1
+ 726               	 ;  306 "Caterina.c" 1
  727 01d8 8093 5700 		sts 87, r24
  728 01dc E895      		spm
  729               		
@@ -737,7 +737,7 @@
  753 0202 FF29      		or r31,r15
  754               	.LVL55:
  755               	/* #APP */
- 756               	 ;  317 "Caterina.c" 1
+ 756               	 ;  316 "Caterina.c" 1
  757 0204 E491      		lpm r30, Z
  758               		
  759               	 ;  0 "" 2
@@ -820,7 +820,7 @@
  836 028c F401      		movw r30,r8
  837               	.LVL61:
  838               	/* #APP */
- 839               	 ;  342 "Caterina.c" 1
+ 839               	 ;  341 "Caterina.c" 1
  840 028e 8093 5700 		sts 87, r24
  841 0292 E895      		spm
  842               		
@@ -866,7 +866,7 @@
  882               	.LVL65:
  883 02c6 F701      		movw r30,r14
  884               	/* #APP */
- 885               	 ;  354 "Caterina.c" 1
+ 885               	 ;  353 "Caterina.c" 1
  886 02c8 0C01      		movw  r0, r24
  887 02ca 4092 5700 		sts 87, r4
  888 02ce E895      		spm
@@ -964,7 +964,7 @@
  980 0362 F401      		movw r30,r8
  981               	.LVL77:
  982               	/* #APP */
- 983               	 ;  380 "Caterina.c" 1
+ 983               	 ;  379 "Caterina.c" 1
  984 0364 8093 5700 		sts 87, r24
  985 0368 E895      		spm
  986               		
@@ -1007,7 +1007,7 @@
  1023 0390 21E0      		ldi r18,lo8(1)
  1024 0392 F801      		movw r30,r16
  1025               	/* #APP */
- 1026               	 ;  612 "Caterina.c" 1
+ 1026               	 ;  611 "Caterina.c" 1
  1027 0394 0C01      		movw  r0, r24
  1028 0396 2093 5700 		sts 87, r18
  1029 039a E895      		spm
@@ -1033,7 +1033,7 @@
  1049 03bc 90E0      		ldi r25,lo8(0)
  1050 03be 21E0      		ldi r18,lo8(1)
  1051               	/* #APP */
- 1052               	 ;  620 "Caterina.c" 1
+ 1052               	 ;  619 "Caterina.c" 1
  1053 03c0 0C01      		movw  r0, r24
  1054 03c2 2093 5700 		sts 87, r18
  1055 03c6 E895      		spm
@@ -1066,7 +1066,7 @@
  1082 03f8 85E0      		ldi r24,lo8(5)
  1083               	.LVL85:
  1084               	/* #APP */
- 1085               	 ;  631 "Caterina.c" 1
+ 1085               	 ;  630 "Caterina.c" 1
  1086 03fa 8093 5700 		sts 87, r24
  1087 03fe E895      		spm
  1088               		
@@ -1090,7 +1090,7 @@
  1106 0410 F091 0000 		lds r31,(CurrAddress)+1
  1107               	.LVL87:
  1108               	/* #APP */
- 1109               	 ;  644 "Caterina.c" 1
+ 1109               	 ;  643 "Caterina.c" 1
  1110 0414 0591      		lpm r16, Z+
  1111 0416 1491      		lpm r17, Z
  1112               		
@@ -1419,7 +1419,7 @@
  1441               	.LSM195:
  1442 0006 88E1      		ldi r24,lo8(24)
  1443               	/* #APP */
- 1444               	 ;  165 "Caterina.c" 1
+ 1444               	 ;  164 "Caterina.c" 1
  1445 0008 0FB6      		in __tmp_reg__, __SREG__
  1446 000a F894      		cli
  1447 000c 8093 6000 		sts 96, r24
@@ -1434,7 +1434,7 @@
  1456 0018 80E0      		ldi r24,lo8(0)
  1457 001a 90E0      		ldi r25,hi8(0)
  1458               	/* #APP */
- 1459               	 ;  168 "Caterina.c" 1
+ 1459               	 ;  167 "Caterina.c" 1
  1460 001c 0FB6      		in __tmp_reg__,__SREG__
  1461 001e F894      		cli
  1462 0020 2093 6100 		sts 97, r18
@@ -1503,7 +1503,7 @@
  1527 0014 88E1      		ldi r24,lo8(24)
  1528               	.LVL109:
  1529               	/* #APP */
- 1530               	 ;  122 "Caterina.c" 1
+ 1530               	 ;  121 "Caterina.c" 1
  1531 0016 0FB6      		in __tmp_reg__, __SREG__
  1532 0018 F894      		cli
  1533 001a 8093 6000 		sts 96, r24
@@ -1518,7 +1518,7 @@
  1542               	.LSM217:
  1543 0028 85B9      		out 37-32,r24
  1544               	.LSM218:
- 1545 002a 1C99      		sbic 35-32,4
+ 1545 002a 1C9B      		sbis 35-32,4
  1546 002c 00C0      		rjmp .L111
  1547               	.LSM219:
  1548 002e 0E94 0000 		call StartSketch
@@ -1527,7 +1527,7 @@
  1551 0032 0E94 0000 		call SetupHardware
  1552               	.LSM221:
  1553               	/* #APP */
- 1554               	 ;  138 "Caterina.c" 1
+ 1554               	 ;  137 "Caterina.c" 1
  1555 0036 7894      		sei
  1556               	 ;  0 "" 2
  1557               	.LSM222:
@@ -1587,31 +1587,31 @@
  1722               	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:00000000 Caterina.c
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:2      *ABS*:0000003f __SREG__
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:3      *ABS*:0000003e __SP_H__
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:4      *ABS*:0000003d __SP_L__
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:5      *ABS*:00000034 __CCP__
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:6      *ABS*:00000000 __tmp_reg__
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:7      *ABS*:00000001 __zero_reg__
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:19     .text.StartSketch:00000000 StartSketch
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:63     .text.LEDPulse:00000000 LEDPulse
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:2      *ABS*:0000003f __SREG__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:3      *ABS*:0000003e __SP_H__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:4      *ABS*:0000003d __SP_L__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:5      *ABS*:00000034 __CCP__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:19     .text.StartSketch:00000000 StartSketch
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:63     .text.LEDPulse:00000000 LEDPulse
                             *COM*:00000002 LLEDPulse
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:102    .text.__vector_17:00000000 __vector_17
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:1585   .bss:00000000 TxLEDPulse
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:1591   .bss:00000002 RxLEDPulse
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:1597   .bss:00000004 Timeout
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:191    .text.FetchNextCommandByte:00000000 FetchNextCommandByte
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:252    .text.WriteNextResponseByte:00000000 WriteNextResponseByte
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:324    .text.CDC_Task:00000000 CDC_Task
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:102    .text.__vector_17:00000000 __vector_17
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:1585   .bss:00000000 TxLEDPulse
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:1591   .bss:00000002 RxLEDPulse
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:1597   .bss:00000004 Timeout
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:191    .text.FetchNextCommandByte:00000000 FetchNextCommandByte
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:252    .text.WriteNextResponseByte:00000000 WriteNextResponseByte
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:324    .text.CDC_Task:00000000 CDC_Task
                              .bss:00000006 CurrAddress
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:1318   .text.EVENT_USB_Device_ControlRequest:00000000 EVENT_USB_Device_ControlRequest
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:1612   .data:0000000d LineEncoding
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:1394   .text.EVENT_USB_Device_ConfigurationChanged:00000000 EVENT_USB_Device_ConfigurationChanged
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:1432   .text.SetupHardware:00000000 SetupHardware
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:1509   .text.main:00000000 main
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:1622   .data:00000014 RunBootloader
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:1603   .data:00000009 bootKey
-C:\Users\AFONSO~1\AppData\Local\Temp/cc2WZCJA.s:1608   .data:0000000b bootKeyPtr
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:1318   .text.EVENT_USB_Device_ControlRequest:00000000 EVENT_USB_Device_ControlRequest
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:1612   .data:0000000d LineEncoding
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:1394   .text.EVENT_USB_Device_ConfigurationChanged:00000000 EVENT_USB_Device_ConfigurationChanged
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:1432   .text.SetupHardware:00000000 SetupHardware
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:1509   .text.main:00000000 main
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:1622   .data:00000014 RunBootloader
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:1603   .data:00000009 bootKey
+C:\Users\AFONSO~1\AppData\Local\Temp/ccBIkK7J.s:1608   .data:0000000b bootKeyPtr
 
 UNDEFINED SYMBOLS
 __eerd_byte_m32u4

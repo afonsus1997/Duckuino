@@ -1,4 +1,4 @@
-C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_16MHzatmega32U4\Release\SSD1306Ascii\SSD1306Ascii.cpp.o: \
+C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\SSD1306Ascii\SSD1306Ascii.cpp.o: \
  C:\Program\ Files\ (x86)\Arduino\libraries\SSD1306Ascii\src\SSD1306Ascii.cpp \
  C:\Program\ Files\ (x86)\Arduino\libraries\SSD1306Ascii\src\SSD1306Ascii.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \
