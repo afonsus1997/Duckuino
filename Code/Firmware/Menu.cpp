@@ -1,6 +1,7 @@
 
 #include "Menu.h"
 #include "oled.h"
+//#include "splash.h"
 
 
 
@@ -34,8 +35,8 @@ public:
 			oled.println("===== KEYBOARDS =====");//21
 			oled.println("");
 
-			if (curr->get_name() == "   PT-PT") { oled.println("-> PT-PT"); oled.println("   EN"); }
-			if (curr->get_name() == "   EN") { oled.println("   PT-PT"); oled.println("-> EN"); }
+			if (curr->get_name() == "   PT") { oled.println("-> PT"); oled.println("   EN"); }
+			if (curr->get_name() == "   EN") { oled.println("   PT"); oled.println("-> EN"); }
 		
 		
 		}
@@ -70,13 +71,16 @@ void on_scripts_selected(MenuComponent* p_menu_component);
 void on_keyboards_selected(MenuComponent* p_menu_component);
 void on_info_selected(MenuComponent* p_menu_component);
 
+void on_pt_selected(MenuComponent* p_menu_component);
+void on_en_selected(MenuComponent* p_menu_component);
+
 
 MenuSystem ms(my_renderer);
 MenuItem scripts("   Scripts", &on_scripts_selected);
 Menu keyboards("   Keyboards");
 MenuItem info("   Info", &on_info_selected);
-MenuItem mu1_mi1("   PT-PT", on_keyboards_selected);
-MenuItem mu1_mi2("   EN", on_keyboards_selected);
+MenuItem mu1_mi1("   PT", on_pt_selected);
+MenuItem mu1_mi2("   EN", on_en_selected);
 
 
 
@@ -99,9 +103,35 @@ void on_keyboards_selected(MenuComponent* p_menu_component) {
 }
 
 void on_info_selected(MenuComponent* p_menu_component) {
-	oled.print("Item3 Selected  ");
+	oled.clear();
+	//oled.drawBitmap(0, 0, Splash, 128, 32, 1);
+	drawInfo();
 	delay(1500); // so we can look the result on the LCD
+	ms.reset();
 }
+
+void on_pt_selected(MenuComponent* p_menu_component) {
+	oled.clear();
+	oled.setFont(Adafruit5x7);
+	oled.println("===== KEYBOARDS =====");
+	oled.println();
+	oled.println("PT Layout Selected");
+	oled.setFont(System5x7);
+	delay(1500);
+	ms.reset();// so we can look the result on the LCD
+}
+
+void on_en_selected(MenuComponent* p_menu_component) {
+	oled.clear();
+	oled.setFont(Adafruit5x7);
+	oled.println("===== KEYBOARDS =====");
+	oled.println();
+	oled.println("EN Layout Selected");
+	oled.setFont(System5x7);
+	delay(1500);
+	ms.reset();
+}
+
 
 void setupMenu() {
 

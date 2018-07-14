@@ -17,5 +17,6 @@
 void setupOLED();
 
 void drawSplash();
+void drawInfo();
 
 #endif

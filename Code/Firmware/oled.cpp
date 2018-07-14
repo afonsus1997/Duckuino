@@ -25,5 +25,13 @@ void drawSplash(){
 
 }
 
+void drawInfo() {
+
+	oled.drawBitmap(0, 0, info, 128, 32, 1);
+	delay(2000);
+	delay(1);
+
+}
+
 
 
