@@ -69,4 +69,17 @@ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_
  C:\Program\ Files\ (x86)\Arduino\libraries\SSD1306Ascii\src/fonts/font8x8.h \
  C:\Program\ Files\ (x86)\Arduino\libraries\SSD1306Ascii\src/fonts/cp437font8x8.h \
  C:\Program\ Files\ (x86)\Arduino\libraries\SSD1306Ascii\src/fonts/utf8font10x16.h \
- C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\pins.h
+ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\pins.h \
+ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\ducky.h \
+ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_8MHzatmega32U4\Release\Mouse.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\HID\src/HID.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/PluggableUSB.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\SPI\src/SPI.h \
+ C:\Program\ Files\ (x86)\Arduino\libraries\SD\src/SD.h \
+ C:\Program\ Files\ (x86)\Arduino\libraries\SD\src/utility/SdFat.h \
+ C:\Program\ Files\ (x86)\Arduino\libraries\SD\src/utility/Sd2Card.h \
+ C:\Program\ Files\ (x86)\Arduino\libraries\SD\src/utility/Sd2PinMap.h \
+ C:\Program\ Files\ (x86)\Arduino\libraries\SD\src/utility/SdInfo.h \
+ C:\Program\ Files\ (x86)\Arduino\libraries\SD\src/utility/FatStructs.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Print.h \
+ C:\Program\ Files\ (x86)\Arduino\libraries\SD\src/utility/SdFatUtil.h

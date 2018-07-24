@@ -2,10 +2,10 @@
 #define PINS_h
 #pragma once
 
-#define dip1 8
-#define dip2 9
-#define dip3 10
-#define dip4 11
+#define dip1 9
+#define dip2 10
+#define dip3 13
+#define dip4 5
 
 #define led1 6
 #define led2 7

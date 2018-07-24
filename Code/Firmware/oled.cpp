@@ -15,7 +15,7 @@ void setupOLED()   {
 void drawSplash(){
 
   oled.drawBitmap(0, 0, Splash, 128, 32, 1);
-  delay(2000);
+  delay(1000);
   oled.clear();
   //oled.println("Firmware v0.1");
   //oled.println("Bootloader v0.1");

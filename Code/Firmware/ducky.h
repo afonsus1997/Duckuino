@@ -27,6 +27,8 @@
 #include <SPI.h>
 #include <SD.h>
 #include "pins.h"
+#include "oled.h"
+extern Cytron_SSD1306 oled;
 
 
 int getSpace(int start, int end);

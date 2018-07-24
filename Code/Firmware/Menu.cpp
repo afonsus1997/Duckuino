@@ -1,7 +1,7 @@
 
 #include "Menu.h"
 #include "oled.h"
-//#include "splash.h"
+#include "ducky.h"
 
 
 
@@ -93,7 +93,9 @@ MenuItem mu1_mi2("   EN", on_en_selected);
 // Menu callback function
 
 void on_scripts_selected(MenuComponent* p_menu_component) {
-	oled.print("Item1 Selected  ");
+	oled.clear();
+	oled.println("====== SCRIPTS ======"); 
+	runDucky();
 	delay(1500); // so we can look the result on the LCD
 }
 
