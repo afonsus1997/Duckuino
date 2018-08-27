@@ -26,6 +26,7 @@
 #include "Mouse.h"
 #include <SPI.h>
 #include <SD.h>
+#include <EEPROM.h>
 #include "pins.h"
 #include "oled.h"
 extern Cytron_SSD1306 oled;

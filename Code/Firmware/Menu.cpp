@@ -6,7 +6,10 @@
 
 
 
+int pten;
 
+String kbsel;
+String kb;
 
 
 
@@ -16,18 +19,24 @@ public:
 	void render(Menu const &menu) const {
 		
 		Serial.println(menu.get_name());
-		if (menu.get_name() != "   Keyboards") {
+		if (menu.get_name() != "[ ] Keyboards") {
 			MenuComponent const* curr = menu.get_current_component();
 			oled.clear();
 
 			oled.println("===== MAIN MENU =====");//21
 
-			if (curr->get_name() == "   Scripts") { oled.println("-> Scripts"); oled.println("   Keyboards"); oled.println("   Info"); }
-			if (curr->get_name() == "   Keyboards") { oled.println("   Scripts"); oled.println("-> Keyboards"); oled.println("   Info"); }
-			if (curr->get_name() == "   Info") { oled.println("   Scripts"); oled.println("   Keyboards"); oled.println("-> Info"); }
+			
+			if (pten) { kb = "[ ] Keyboards   [PT]"; kbsel = "[*] Keyboards   [PT]"; }
+			
+			else{ kb = "[ ] Keyboards   [EN]"; kbsel = "[*] Keyboards   [EN]"; }
+			 
+			
+			if (curr->get_name() == "[ ] Scripts") { oled.println("[*] Scripts"); oled.println(kb); oled.println("[ ] Info"); }
+			if (curr->get_name() == "[ ] Keyboards") { oled.println("[ ] Scripts"); oled.println(kbsel); oled.println("[ ] Info"); }
+			if (curr->get_name() == "[ ] Info") { oled.println("[ ] Scripts"); oled.println(kb); oled.println("[*] Info"); }
 		}
 
-		else if (menu.get_name() == "   Keyboards") {
+		else if (menu.get_name() == "[ ] Keyboards") {
 		
 			MenuComponent const* curr = menu.get_current_component();
 			oled.clear();
@@ -35,8 +44,8 @@ public:
 			oled.println("===== KEYBOARDS =====");//21
 			oled.println("");
 
-			if (curr->get_name() == "   PT") { oled.println("-> PT"); oled.println("   EN"); }
-			if (curr->get_name() == "   EN") { oled.println("   PT"); oled.println("-> EN"); }
+			if (curr->get_name() == "[ ] PT") { oled.println("[*] PT"); oled.println("[ ] EN"); }
+			if (curr->get_name() == "[ ] EN") { oled.println("[ ] PT"); oled.println("[*] EN"); }
 		
 		
 		}
@@ -76,11 +85,11 @@ void on_en_selected(MenuComponent* p_menu_component);
 
 
 MenuSystem ms(my_renderer);
-MenuItem scripts("   Scripts", &on_scripts_selected);
-Menu keyboards("   Keyboards");
-MenuItem info("   Info", &on_info_selected);
-MenuItem mu1_mi1("   PT", on_pt_selected);
-MenuItem mu1_mi2("   EN", on_en_selected);
+MenuItem scripts("[ ] Scripts", &on_scripts_selected);
+Menu keyboards("[ ] Keyboards");
+MenuItem info("[ ] Info", &on_info_selected);
+MenuItem mu1_mi1("[ ] PT", on_pt_selected);
+MenuItem mu1_mi2("[ ] EN", on_en_selected);
 
 
 
@@ -119,6 +128,8 @@ void on_pt_selected(MenuComponent* p_menu_component) {
 	oled.println();
 	oled.println("PT Layout Selected");
 	oled.setFont(System5x7);
+	EEPROM.write(0, 1);
+	pten = EEPROM.read(0);
 	delay(1500);
 	ms.reset();// so we can look the result on the LCD
 }
@@ -130,6 +141,8 @@ void on_en_selected(MenuComponent* p_menu_component) {
 	oled.println();
 	oled.println("EN Layout Selected");
 	oled.setFont(System5x7);
+	EEPROM.write(0, 0);
+	pten = EEPROM.read(0);
 	delay(1500);
 	ms.reset();
 }
@@ -143,7 +156,7 @@ void setupMenu() {
 	keyboards.add_item(&mu1_mi1);
 	keyboards.add_item(&mu1_mi2);
 
-	
+	pten = EEPROM.read(0);
 	ms.display();
 	
 }

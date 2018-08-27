@@ -7,7 +7,7 @@
 #include "oled.h";
 #include "pins.h";
 extern Cytron_SSD1306 oled;
-
+//extern EEPROM;
 void setupMenu();
 
 void checkHardware();

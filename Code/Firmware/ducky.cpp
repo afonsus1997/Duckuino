@@ -1,5 +1,7 @@
 #include "ducky.h"
 #include "Keyboard_PT.h"
+#include <EEPROM.h>
+//#include <Keyboard.h>
 //#include "Mouse.h"
 //#define debug
 File payload;
@@ -7,6 +9,8 @@ File payload;
 char* buf = malloc(sizeof(char)*buffersize);
 char* repeatBuffer = malloc(sizeof(char) * 12);
 
+int eeaddr = 0;
+int ispt = 0;
 int delay_val;
 int bufSize = 0;
 int defaultDelay = 5;
@@ -56,6 +60,13 @@ void KeyboardWrite(uint8_t c) {
 	Keyboard.release(c);
 }
 
+void KeyboardWrite_pt(uint8_t c) {
+	Keyboard.press_pt(c);
+	delay(defaultCharDelay);
+	Keyboard.release_pt(c);
+}
+
+
 
 
 void runLine() {
@@ -65,13 +76,14 @@ void runLine() {
 	int space = getSpace(0, bufSize);
 	
 	Serial.print("LINE:");  Serial.println(buf);
+	oled.clear();
+	oled.println("====== RUNNING ======"); oled.println(); oled.print(buf);
 
 	char *arg;
 	char *newArray = buf;
 
 
 	cmd = strtok(buf, " ");
-	oled.clear();
 
 
 
@@ -83,12 +95,12 @@ void runLine() {
 			cmd = strtok(NULL, " ");
 			delay_val = atoi(cmd);
 
-			oled.println("DELAY"); oled.println(delay_val);
+			//oled.println("DELAY"); oled.println(delay_val);
 			delay(delay_val);
 
 		}
 		else if (equals(buf, 0, space, "STRING", strlen("STRING"))) {
-			oled.println("STRING");
+			//oled.println("STRING");
 			for (int i = space + 1; i < bufSize; i++) { KeyboardWrite(buf[i]); }
 		}
 
@@ -224,6 +236,13 @@ void duckySetup() {
 	delay(2000);
 	Serial.println("Started!");
 #endif
+	ispt = EEPROM.read(eeaddr);
+	if (ispt) {
+		Serial.println("Keyboard: PT");
+	}
+	else {
+		Serial.println("Keyboard: EN");
+	}
 
 	randomSeed(analogRead(0));
 
@@ -253,9 +272,9 @@ void duckySetup() {
 	pinMode(right, INPUT_PULLUP);
 	pinMode(center, INPUT_PULLUP);
 
-	if (/*!SD.begin(4)*/0) {
+	if (!SD.begin(4)) {
 
-		//Serial.println("couldn't access sd-card :(");
+		Serial.println("couldn't access sd-card :(");
 		oled.clear();
 		oled.println("======= ERROR ======="); oled.println();
 		oled.println("SD card error :(");
@@ -286,7 +305,7 @@ void runDucky() {
 
 	SD.begin(4);
 
-	payload = SD.open("1111.txt");
+	payload = SD.open(scriptName);
 
 	if (0) {
 		//Serial.println("couldn't find script: '" + String(scriptName) + "'");
@@ -295,7 +314,6 @@ void runDucky() {
 	}
 
 	else {
-		oled.clear();
 		//oled.println("12345");
 
 		//payload.close();
