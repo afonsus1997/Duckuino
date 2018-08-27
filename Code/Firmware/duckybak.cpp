@@ -138,12 +138,10 @@ void runCommand(int s, int e) {
 	//Serial.print("GUI:"); Serial.println(strcmp(cmd,"GUI"));
 	//Serial.print("ENTER:"); Serial.println(strcmp(cmd,"ENTER"));
 	//for (int l = s; l < e; l++) { oled.print(buf[l]); }
-	//if (e - s < 2) Keyboard.press(buf[s]);
-	if (0) {}
-	else if (strcmp(cmd, "ENTER") == 0) Keyboard.press(KEY_RETURN);
-	//else if (((equals(buf, s, e, "GUI", strlen("GUI")))) || (equals(buf, 0, s, "WINDOWS", strlen("WINDOWS")))) Keyboard.press(KEY_LEFT_GUI);
-	else if (strcmp(cmd, "GUI") == 0) Keyboard.press(KEY_LEFT_GUI);//Keyboard.press(KEY_LEFT_GUI);
-	/*
+	if (e - s < 2) Keyboard.press(buf[s]);
+	else if ((equals(buf, s, e, "ENTER", strlen("ENTER")))) Keyboard.press(KEY_RETURN);
+	else if (((equals(buf, s, e, "GUI", strlen("GUI")))) || (equals(buf, 0, s, "WINDOWS", strlen("WINDOWS")))) Keyboard.press(KEY_LEFT_GUI);
+	else if (strcmp(cmd, "GUI") == 0) Keyboard.press(KEY_LEFT_GUI);
 	else if (equalsBuffer(s, e, "SHIFT")) Keyboard.press(KEY_LEFT_SHIFT);
 	else if (equalsBuffer(s, e, "ALT") || equalsBuffer(s, e, "ALT_LEFT") || equalsBuffer(s, e, "ALTLEFT")) Keyboard.press(KEY_LEFT_ALT);
 	else if (equalsBuffer(s, e, "ALT_RIGHT") || equalsBuffer(s, e, "ALTRIGHT")) Keyboard.press(KEY_RIGHT_ALT);
@@ -206,9 +204,9 @@ void runCommand(int s, int e) {
 	else if (equalsBuffer(s, e, "RELEASE") || equalsBuffer(s, e, "RELEASE_LEFT")) Mouse.release();
 	else if (equalsBuffer(s, e, "RELEASE_LEFT")) Mouse.release(MOUSE_RIGHT);
 	else if (equalsBuffer(s, e, "RELEASE_MIDDLE")) Mouse.release(MOUSE_MIDDLE);
-	*/
-	else Keyboard.press(cmd[0]);
-	//else Serial.println("failed to find command");
+
+
+	else Serial.println("failed to find command");
 	/* not implemented
 	else if(equalsBuffer(s,e,"APP")) Keyboard.press();
 	else if(equalsBuffer(s,e,"MENU")) Keyboard.press();
