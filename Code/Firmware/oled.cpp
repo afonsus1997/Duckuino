@@ -26,10 +26,11 @@ void drawSplash(){
 }
 
 void drawInfo() {
-
-	oled.drawBitmap(0, 0, info, 128, 32, 1);
+	//oled.println("Afonso Muralha - 2018");
+	//oled.println("github.com/afonsus1997/Duckuino");
+	//oled.println("HW: 2.0     SW:0.8");
+	//oled.drawBitmap(0, 0, info, 128, 32, 1);
 	delay(2000);
-	delay(1);
 
 }
 

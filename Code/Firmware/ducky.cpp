@@ -9,6 +9,7 @@ File payload;
 char* buf = malloc(sizeof(char)*buffersize);
 char* repeatBuffer = malloc(sizeof(char) * 12);
 
+int keystatus = 0;
 int eeaddr = 0;
 int ispt = 0;
 int delay_val;
@@ -137,6 +138,94 @@ void runLine() {
 	Keyboard.releaseAll();
 	delay(defaultDelay);
 }
+
+int checkKey() {
+	if (strcmp(cmd, "ENTER") == 0) { Keyboard.press(KEY_RETURN); return 1; }
+	else if (strcmp(cmd, "GUI") == 0) { Keyboard.press(KEY_LEFT_GUI); return 1; }//Keyboard.press(KEY_LEFT_GUI);
+	else if (strcmp(cmd, "SHIFT") == 0) { Keyboard.press(KEY_LEFT_SHIFT); return 1; }
+	else if (strcmp(cmd, "ALT") == 0 || strcmp(cmd, "ALT_LEFT") == 0 || strcmp(cmd, "ALTLEFT") == 0) { Keyboard.press(KEY_LEFT_ALT); return 1; }
+	else if (strcmp(cmd, "ALT_RIGHT") == 0 || strcmp(cmd, "ALTRIGHT") == 0) { Keyboard.press(KEY_RIGHT_ALT); return 1; }
+	else if (strcmp(cmd, "CTRL") == 0 || strcmp(cmd, "CONTROL") == 0) { Keyboard.press(KEY_LEFT_CTRL); return 1; }
+	else if (strcmp(cmd, "CAPSLOCK") == 0) { Keyboard.press(KEY_CAPS_LOCK); return 1; }
+	else if (strcmp(cmd, "DELETE") == 0) { Keyboard.press(KEY_DELETE); return 1; }
+	else if (strcmp(cmd, "END") == 0) { Keyboard.press(KEY_END); return 1; }
+	else if (strcmp(cmd, "ESC") == 0 || strcmp(cmd, "ESCAPE") == 0) {Keyboard.press(KEY_ESC);return 1;}
+	else if (strcmp(cmd, "HOME") == 0) { Keyboard.press(KEY_HOME); return 1; return 1; }
+	else if (strcmp(cmd, "INSERT") == 0) { Keyboard.press(KEY_INSERT); return 1; }
+	else if (strcmp(cmd, "PAGEUP") == 0) {Keyboard.press(KEY_PAGE_UP);return 1;}
+	else if (strcmp(cmd, "PAGEDOWN") == 0) { Keyboard.press(KEY_PAGE_DOWN); return 1; }
+	else if (strcmp(cmd, "SPACE") == 0) { Keyboard.press(' '); return 1; }
+	else if (strcmp(cmd, "TAB") == 0) { Keyboard.press(KEY_TAB); return 1; }
+	else if (strcmp(cmd, "BACKSPACE") == 0) { Keyboard.press(KEY_BACKSPACE); return 1; }
+
+	if (strcmp(cmd, "UP") == 0 || strcmp(cmd, "UPARROW") == 0) { Keyboard.press(KEY_UP_ARROW); return 1; }
+	else if (strcmp(cmd, "DOWN") == 0 || strcmp(cmd, "DOWNARROW") == 0) { Keyboard.press(KEY_DOWN_ARROW); return 1; }
+	else if (strcmp(cmd, "LEFT") == 0 || strcmp(cmd, "LEFTARROW") == 0) { Keyboard.press(KEY_LEFT_ARROW); return 1; }
+	//else if (strcmp(cmd, "RIGHT") == 0 || strcmp(cmd, "RIGHTARROW") == 0) {Keyboard.press(KEY_RIGHT_ARROW); return 1;}
+
+	//else if (strcmp(cmd, "PRINTSCREEN") == 0) { Keyboard.press(PRINTSCREEN); return 1; }
+	
+	else return 0;
+
+}
+
+int checkF() {
+	if (strcmp(cmd, "F1") == 0) { Keyboard.press(KEY_F1); return 1; }
+	
+	else if (strcmp(cmd, "RIGHT") == 0 || strcmp(cmd, "RIGHTARROW") == 0) {Keyboard.press(KEY_RIGHT_ARROW); return 1;}
+
+	else if (strcmp(cmd, "PRINTSCREEN") == 0) { Keyboard.press(PRINTSCREEN); return 1; }
+
+	
+	
+	else if (strcmp(cmd, "F2") == 0) { Keyboard.press(KEY_F2); return 1; }
+	else if (strcmp(cmd, "F3") == 0) { Keyboard.press(KEY_F3); return 1; }
+	else if (strcmp(cmd, "F4") == 0) { Keyboard.press(KEY_F4); return 1; }
+	else if (strcmp(cmd, "F5") == 0) { Keyboard.press(KEY_F5); return 1; }
+	else if (strcmp(cmd, "F6") == 0) { Keyboard.press(KEY_F6); return 1; }
+	else if (strcmp(cmd, "F7") == 0) { Keyboard.press(KEY_F7); return 1; }
+	else if (strcmp(cmd, "F8") == 0) { Keyboard.press(KEY_F8); return 1; }
+	else if (strcmp(cmd, "F9") == 0) { Keyboard.press(KEY_F9); return 1; }
+	else if (strcmp(cmd, "F10") == 0) { Keyboard.press(KEY_F10); return 1; }
+	else if (strcmp(cmd, "F11") == 0) { Keyboard.press(KEY_F11); return 1; }
+	else if (strcmp(cmd, "F12") == 0) { Keyboard.press(KEY_F12); return 1; }
+	else return 0;
+}
+
+int checkNUM() {
+	if (strcmp(cmd, "NUM_0") == 0) {KeyboardWrite(KEYPAD_0); return 1; }
+	else if (strcmp(cmd, "NUM_1") == 0) {KeyboardWrite(KEYPAD_1); return 1; }
+	else if (strcmp(cmd, "NUM_2") == 0) {KeyboardWrite(KEYPAD_2); return 1; }
+	else if (strcmp(cmd, "NUM_3") == 0) {KeyboardWrite(KEYPAD_3); return 1; }
+	else if (strcmp(cmd, "NUM_4") == 0) {KeyboardWrite(KEYPAD_4); return 1; }
+	else if (strcmp(cmd, "NUM_5") == 0) {KeyboardWrite(KEYPAD_5); return 1; }
+	else if (strcmp(cmd, "NUM_6") == 0) {KeyboardWrite(KEYPAD_6); return 1; }
+	else if (strcmp(cmd, "NUM_7") == 0) {KeyboardWrite(KEYPAD_7); return 1; }
+	else if (strcmp(cmd, "NUM_8") == 0) {KeyboardWrite(KEYPAD_8); return 1; }
+	else if (strcmp(cmd, "NUM_9") == 0) {KeyboardWrite(KEYPAD_9); return 1; }
+	else if (strcmp(cmd, "NUM_ASTERISK") == 0) {KeyboardWrite(KEYPAD_ASTERIX); return 1; }
+	else if (strcmp(cmd, "NUM_ENTER") == 0) {KeyboardWrite(KEYPAD_ENTER); return 1; }
+	else if (strcmp(cmd, "NUM_MINUS") == 0) {KeyboardWrite(KEYPAD_MINUS); return 1; }
+	else if (strcmp(cmd, "NUM_PERIOD") == 0) {KeyboardWrite(KEYPAD_PERIOD); return 1; }
+	else if (strcmp(cmd, "NUM_PLUS") == 0) {KeyboardWrite(KEYPAD_PLUS); return 1; }
+	else return 0;
+
+}
+
+int checkMOUSE() {
+	if (strcmp(cmd, "CLICK") == 0 || strcmp(cmd, "CLICK_LEFT") == 0 || strcmp(cmd, "MOUSE_CLICK") == 0) {Mouse.click(); return 1; }
+	else if (strcmp(cmd, "CLICK_RIGHT") == 0) {Mouse.click(MOUSE_RIGHT); return 1; }
+	else if (strcmp(cmd, "CLICK_MIDDLE") == 0) {Mouse.click(MOUSE_MIDDLE); return 1; }
+
+	else if (strcmp(cmd, "PRESS") == 0 || strcmp(cmd, "PRESS_LEFT")) {Mouse.press(); return 1; }
+	else if (strcmp(cmd, "PRESS_LEFT") == 0) {Mouse.press(MOUSE_RIGHT); return 1; }
+	else if (strcmp(cmd, "PRESS_MIDDLE") == 0) {Mouse.press(MOUSE_MIDDLE); return 1; }
+	else if (strcmp(cmd, "RELEASE") == 0 || strcmp(cmd, "RELEASE_LEFT") == 0) {Mouse.release(); return 1; }
+	else if (strcmp(cmd, "RELEASE_LEFT") == 0) {Mouse.release(MOUSE_RIGHT); return 1; }
+	else if (strcmp(cmd, "RELEASE_MIDDLE") == 0) {Mouse.release(MOUSE_MIDDLE); return 1; }
+	else return 0;
+}
+
 void runCommand(int s, int e) {
 
 
@@ -151,74 +240,21 @@ void runCommand(int s, int e) {
 	//Serial.print("ENTER:"); Serial.println(strcmp(cmd,"ENTER"));
 	//for (int l = s; l < e; l++) { oled.print(buf[l]); }
 	//if (e - s < 2) Keyboard.press(buf[s]);
-	if (0) {}
-	else if (strcmp(cmd, "ENTER") == 0) Keyboard.press(KEY_RETURN);
-	//else if (((equals(buf, s, e, "GUI", strlen("GUI")))) || (equals(buf, 0, s, "WINDOWS", strlen("WINDOWS")))) Keyboard.press(KEY_LEFT_GUI);
-	else if (strcmp(cmd, "GUI") == 0) Keyboard.press(KEY_LEFT_GUI);//Keyboard.press(KEY_LEFT_GUI);
+	
+	//if (strlen(cmd)<=2) Keyboard.press(cmd[0]);
+	keystatus = checkKey();
+	if (!keystatus) checkF;
+	if (!keystatus) checkNUM;
+	//if (!keystatus) checkMOUSE;
+	if (!keystatus) Keyboard.press(cmd[0]);
+	
+	
 	/*
-	else if (equalsBuffer(s, e, "SHIFT")) Keyboard.press(KEY_LEFT_SHIFT);
-	else if (equalsBuffer(s, e, "ALT") || equalsBuffer(s, e, "ALT_LEFT") || equalsBuffer(s, e, "ALTLEFT")) Keyboard.press(KEY_LEFT_ALT);
-	else if (equalsBuffer(s, e, "ALT_RIGHT") || equalsBuffer(s, e, "ALTRIGHT")) Keyboard.press(KEY_RIGHT_ALT);
-	else if (equalsBuffer(s, e, "CTRL") || equalsBuffer(s, e, "CONTROL")) Keyboard.press(KEY_LEFT_CTRL);
-	else if (equalsBuffer(s, e, "CAPSLOCK")) Keyboard.press(KEY_CAPS_LOCK);
-	else if (equalsBuffer(s, e, "DELETE")) Keyboard.press(KEY_DELETE);
-	else if (equalsBuffer(s, e, "END")) Keyboard.press(KEY_END);
-	else if (equalsBuffer(s, e, "ESC") || equalsBuffer(s, e, "ESCAPE")) Keyboard.press(KEY_ESC);
-	else if (equalsBuffer(s, e, "HOME")) Keyboard.press(KEY_HOME);
-	else if (equalsBuffer(s, e, "INSERT")) Keyboard.press(KEY_INSERT);
-	else if (equalsBuffer(s, e, "PAGEUP")) Keyboard.press(KEY_PAGE_UP);
-	else if (equalsBuffer(s, e, "PAGEDOWN")) Keyboard.press(KEY_PAGE_DOWN);
-	else if (equalsBuffer(s, e, "SPACE")) Keyboard.press(' ');
-	else if (equalsBuffer(s, e, "TAB")) Keyboard.press(KEY_TAB);
-	else if (equalsBuffer(s, e, "BACKSPACE")) Keyboard.press(KEY_BACKSPACE);
 
-	else if (equalsBuffer(s, e, "UP") || equalsBuffer(s, e, "UPARROW")) Keyboard.press(KEY_UP_ARROW);
-	else if (equalsBuffer(s, e, "DOWN") || equalsBuffer(s, e, "DOWNARROW")) Keyboard.press(KEY_DOWN_ARROW);
-	else if (equalsBuffer(s, e, "LEFT") || equalsBuffer(s, e, "LEFTARROW")) Keyboard.press(KEY_LEFT_ARROW);
-	else if (equalsBuffer(s, e, "RIGHT") || equalsBuffer(s, e, "RIGHTARROW")) Keyboard.press(KEY_RIGHT_ARROW);
+	
 
-	else if (equalsBuffer(s, e, "PRINTSCREEN")) Keyboard.press(PRINTSCREEN);
-
-	else if (equalsBuffer(s, e, "F1")) Keyboard.press(KEY_F1);
-	else if (equalsBuffer(s, e, "F2")) Keyboard.press(KEY_F2);
-	else if (equalsBuffer(s, e, "F3")) Keyboard.press(KEY_F3);
-	else if (equalsBuffer(s, e, "F4")) Keyboard.press(KEY_F4);
-	else if (equalsBuffer(s, e, "F5")) Keyboard.press(KEY_F5);
-	else if (equalsBuffer(s, e, "F6")) Keyboard.press(KEY_F6);
-	else if (equalsBuffer(s, e, "F7")) Keyboard.press(KEY_F7);
-	else if (equalsBuffer(s, e, "F8")) Keyboard.press(KEY_F8);
-	else if (equalsBuffer(s, e, "F9")) Keyboard.press(KEY_F9);
-	else if (equalsBuffer(s, e, "F10")) Keyboard.press(KEY_F10);
-	else if (equalsBuffer(s, e, "F11")) Keyboard.press(KEY_F11);
-	else if (equalsBuffer(s, e, "F12")) Keyboard.press(KEY_F12);
-
-	else if (equalsBuffer(s, e, "NUM_0")) KeyboardWrite(KEYPAD_0);
-	else if (equalsBuffer(s, e, "NUM_1")) KeyboardWrite(KEYPAD_1);
-	else if (equalsBuffer(s, e, "NUM_2")) KeyboardWrite(KEYPAD_2);
-	else if (equalsBuffer(s, e, "NUM_3")) KeyboardWrite(KEYPAD_3);
-	else if (equalsBuffer(s, e, "NUM_4")) KeyboardWrite(KEYPAD_4);
-	else if (equalsBuffer(s, e, "NUM_5")) KeyboardWrite(KEYPAD_5);
-	else if (equalsBuffer(s, e, "NUM_6")) KeyboardWrite(KEYPAD_6);
-	else if (equalsBuffer(s, e, "NUM_7")) KeyboardWrite(KEYPAD_7);
-	else if (equalsBuffer(s, e, "NUM_8")) KeyboardWrite(KEYPAD_8);
-	else if (equalsBuffer(s, e, "NUM_9")) KeyboardWrite(KEYPAD_9);
-	else if (equalsBuffer(s, e, "NUM_ASTERIX")) KeyboardWrite(KEYPAD_ASTERIX);
-	else if (equalsBuffer(s, e, "NUM_ENTER")) KeyboardWrite(KEYPAD_ENTER);
-	else if (equalsBuffer(s, e, "NUM_Minus")) KeyboardWrite(KEYPAD_MINUS);
-	else if (equalsBuffer(s, e, "NUM_PERIOD")) KeyboardWrite(KEYPAD_PERIOD);
-	else if (equalsBuffer(s, e, "NUM_PLUS")) KeyboardWrite(KEYPAD_PLUS);
-
-	else if (equalsBuffer(s, e, "CLICK") || equalsBuffer(s, e, "CLICK_LEFT") || equalsBuffer(s, e, "MOUSECLICK")) Mouse.click();
-	else if (equalsBuffer(s, e, "CLICK_RIGHT")) Mouse.click(MOUSE_RIGHT);
-	else if (equalsBuffer(s, e, "CLICK_MIDDLE")) Mouse.click(MOUSE_MIDDLE);
-
-	else if (equalsBuffer(s, e, "PRESS") || equalsBuffer(s, e, "PRESS_LEFT")) Mouse.press();
-	else if (equalsBuffer(s, e, "PRESS_LEFT")) Mouse.press(MOUSE_RIGHT);
-	else if (equalsBuffer(s, e, "PRESS_MIDDLE")) Mouse.press(MOUSE_MIDDLE);
-	else if (equalsBuffer(s, e, "RELEASE") || equalsBuffer(s, e, "RELEASE_LEFT")) Mouse.release();
-	else if (equalsBuffer(s, e, "RELEASE_LEFT")) Mouse.release(MOUSE_RIGHT);
-	else if (equalsBuffer(s, e, "RELEASE_MIDDLE")) Mouse.release(MOUSE_MIDDLE);
-	*/
+	
+	
 	else Keyboard.press(cmd[0]);
 	//else Serial.println("failed to find command");
 	/* not implemented
@@ -283,7 +319,12 @@ void duckySetup() {
 		return;
 	}
 
+	digitalWrite(led1, HIGH);
+
+
+
 }
+
 
 void runDucky() {
 
@@ -300,7 +341,8 @@ void runDucky() {
 	scriptName += ".txt";
 	//oled.println();
 	oled.println();
-
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, HIGH);
 	oled.print("Running ");  oled.println(scriptName);
 
 	SD.begin(4);
@@ -374,4 +416,8 @@ void runDucky() {
 		Mouse.end();
 		Keyboard.end();
 	}
+
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, LOW);
+
 }

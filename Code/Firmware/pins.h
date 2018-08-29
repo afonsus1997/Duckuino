@@ -7,8 +7,8 @@
 #define dip3 13
 #define dip4 5
 
-#define led1 6
-#define led2 7
+#define led1 7
+#define led2 6
 
 #define left 12
 #define right 11
