@@ -102,7 +102,8 @@ void runLine() {
 		}
 		else if (equals(buf, 0, space, "STRING", strlen("STRING"))) {
 			//oled.println("STRING");
-			for (int i = space + 1; i < bufSize; i++) { KeyboardWrite(buf[i]); }
+			for (int i = space + 1; i < bufSize; i++) { if (ispt) { KeyboardWrite_pt(buf[i]); } else  KeyboardWrite(buf[i]);
+			}
 		}
 
 
@@ -246,7 +247,7 @@ void runCommand(int s, int e) {
 	if (!keystatus) checkF;
 	if (!keystatus) checkNUM;
 	//if (!keystatus) checkMOUSE;
-	if (!keystatus) Keyboard.press(cmd[0]);
+	if (!keystatus) { if (ispt) { Keyboard.press_pt(cmd[0]); } else Keyboard.press(cmd[0]); }
 	
 	
 	/*
@@ -269,7 +270,7 @@ void runCommand(int s, int e) {
 void duckySetup() {
 #ifdef debug
 	Serial.begin(115200);
-	delay(2000);
+	delay(200);
 	Serial.println("Started!");
 #endif
 	ispt = EEPROM.read(eeaddr);
@@ -285,19 +286,6 @@ void duckySetup() {
 	pinMode(led1, OUTPUT);
 	pinMode(led2, OUTPUT);
 
-	digitalWrite(led1, HIGH);
-	digitalWrite(led2, HIGH);
-	delay(100);
-	digitalWrite(led1, LOW);
-	digitalWrite(led2, LOW);
-	delay(100);
-	digitalWrite(led1, HIGH);
-	digitalWrite(led2, HIGH);
-	delay(100);
-	digitalWrite(led1, LOW);
-	digitalWrite(led2, LOW);
-	delay(100);
-
 
 	pinMode(dip1, INPUT_PULLUP);
 	pinMode(dip2, INPUT_PULLUP);
@@ -307,6 +295,31 @@ void duckySetup() {
 	pinMode(left, INPUT_PULLUP);
 	pinMode(right, INPUT_PULLUP);
 	pinMode(center, INPUT_PULLUP);
+
+	if (digitalRead(center) == LOW) {
+		oled.println("====== RUNNING ======");
+		oled.println("Auto Mode!");
+		delay(200);
+		runDucky();
+	}
+
+	drawSplash();
+
+
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+	delay(100);
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+	delay(100);
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+	delay(100);
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+	delay(100);
+
+
 
 	if (!SD.begin(4)) {
 
@@ -344,6 +357,8 @@ void runDucky() {
 	digitalWrite(led1, LOW);
 	digitalWrite(led2, HIGH);
 	oled.print("Running ");  oled.println(scriptName);
+
+	ispt = EEPROM.read(0);
 
 	SD.begin(4);
 

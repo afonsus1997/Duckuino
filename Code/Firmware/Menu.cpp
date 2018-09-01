@@ -115,9 +115,13 @@ void on_keyboards_selected(MenuComponent* p_menu_component) {
 
 void on_info_selected(MenuComponent* p_menu_component) {
 	oled.clear();
-	//oled.drawBitmap(0, 0, Splash, 128, 32, 1);
 	drawInfo();
-	delay(1500); // so we can look the result on the LCD
+	oled.clear();
+	oled.println("====== INFO ======");
+	oled.println();
+	oled.println("Firmware: v0.1");
+	oled.println("Bootloader: Sparkfun");
+	delay(2000);
 	ms.reset();
 }
 

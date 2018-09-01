@@ -8,9 +8,10 @@
 void setup()
 {
 	setupOLED();
-	setupMenu();
-	duckySetup();
 	
+	duckySetup();
+	setupMenu();
+
 	Serial.begin(9600);
 
 }
