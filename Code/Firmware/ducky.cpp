@@ -7,6 +7,7 @@
 File payload;
 
 char* buf = malloc(sizeof(char)*buffersize);
+char *cmd = malloc(sizeof(char)*300);
 char* repeatBuffer = malloc(sizeof(char) * 12);
 
 int keystatus = 0;
@@ -20,8 +21,8 @@ bool ledOn = true;
 int rMin = -100;
 int rMax = 100;
 
-char *cmd;
-char *test;
+//char *cmd;
+//char *test;
 
 
 int getSpace(int start, int end) {
@@ -59,12 +60,14 @@ void KeyboardWrite(uint8_t c) {
 	Keyboard.press(c);
 	delay(defaultCharDelay);
 	Keyboard.release(c);
+	//delay(10);
 }
 
 void KeyboardWrite_pt(uint8_t c) {
 	Keyboard.press_pt(c);
 	delay(defaultCharDelay);
 	Keyboard.release_pt(c);
+	//delay(10);
 }
 
 

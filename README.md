@@ -4,11 +4,14 @@
 
 ### The truly open-source atmega32u4 ducky clone (V2.0)
 
-```YOU are on the ALTIUM branch! V2.0 WIP```
+
 
 ## Info
 
 Enter the duckuino, the fully open-source USB rubberducky clone based on the atmega32u4
+
+![Altium](https://raw.githubusercontent.com/afonsus1997/Duckuino/V2.0-Altium/pics%20and%20renders/2.png)
+
 
 ## BOM
 

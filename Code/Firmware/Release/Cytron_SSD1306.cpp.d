@@ -14,7 +14,7 @@ C:\Users\Afonso\ Muralha\AppData\Local\Temp\VMBuilds\Firmware\SparkFun_promicro_
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/USBDesc.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/USBCore.h \
- C:\Users\Afonso\ Muralha\AppData\Local\arduino15\packages\SparkFun\hardware\avr\1.1.10\variants\promicro/pins_arduino.h \
+ C:\Users\Afonso\ Muralha\AppData\Local\arduino15\packages\SparkFun\hardware\avr\1.1.12\variants\promicro/pins_arduino.h \
  C:\Program\ Files\ (x86)\Arduino\libraries\SSD1306Ascii\src/SSD1306Ascii.h \
  C:\Program\ Files\ (x86)\Arduino\libraries\SSD1306Ascii\src/SSD1306init.h \
  C:\Program\ Files\ (x86)\Arduino\libraries\SSD1306Ascii\src/fonts/allFonts.h \
